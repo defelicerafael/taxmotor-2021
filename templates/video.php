@@ -1,23 +1,23 @@
 
-<div id="video" class="py-5 taxmotor-padding">
+<div id="video" class="py-md-5 py-md-3 py-2 taxmotor-padding">
   <div class="row g-0 align-items-start padding-video">
-    <div class="col-6">
+    <div class="col-md-6 col-12">
       <h1 class="letra-grande">
         Tus impuestos,
-        <br>
+        <br/>
         muy fácil.
         <br/>
         <span class="secundario">Sin pagar de más</span>
       </h1>
-      <p class="os-regular py-3">
+      <p class="os-regular py-md-3 py-2">
         Tomá el control de tus impuestos, fácil y al menor costo.<br/>
         Siempre con el apoyo de nuestros expertos.
       </p>
       <div class="row g-0 align-items-start">
-        <div class="col-5">
+        <div class="col-md-5 text-center text-md-start pb-3 pb-md-0">
           <button class="btn bg-boton text-white btn-config-2">PROBALO 30 DÍAS GRATIS</button>
         </div>
-        <div class="col-7 ps-2 align-self-center">
+        <div class="col-md-7 ps-md-2 ps-md-4 align-self-center text-center text-md-start">
             <div class="secundario poppins">
               <a role="button" data-bs-toggle="modal" data-bs-target="#videoModal">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="44" viewBox="0 0 42 44">
@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-md-6 col-12 d-none d-sm-none d-md-block">
       <a role="button" data-bs-toggle="modal" data-bs-target="#videoModal">
         <img src="img/home/01_Home_FOTO-NOTEBOOK.jpg" alt="taxmotor" title="taxmotor" class="w-100">
       </a>

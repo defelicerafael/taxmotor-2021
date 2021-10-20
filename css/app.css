@@ -270,7 +270,89 @@ body,html{
 #footer ul a{
     text-decoration: none;
 }
-@media (max-width: 991.98px) {
-    
-    
+@media (max-width: 767.98px) {
+    /* CONTAINER */
+    .container-taxmotor{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        z-index: 1;
+        padding-bottom: 0px;
+        font-size: 11px;
+    }
+    .taxmotor-padding{
+        padding: 1px 1px;
+    }
+    .padding-end{
+        padding-right: 0px; 
+    }
+    .footer-efect {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        z-index: -9999;
+        background-color: #f1f2f6;
+    } 
+    .padding-foto-footer{
+        padding-left:0px; 
+    }
+    /* IMG */
+    .img-experto{
+        height:100%;
+        width:auto;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .img-position-1{
+        position: absolute;
+        top: 20%;
+        right: 17%;
+    }
+    .img-position-2{
+        position: absolute;
+        top: 20%;
+        right: 10%;
+    }
+    /* BTN */
+    .btn-config-2{
+        font-size:1em;
+        border-radius: 9px;
+        padding: 5px 15px;
+        font-family: pregular;
+        color:white;
+    }
+    .btn-config-3{
+        font-size:1em;
+        border-radius: 9px;
+        padding: 5px 15px;
+        font-family: pregular;
+        color:white;
+    }
+    .btn-config-4{
+        font-size:1em;
+        border-radius: 9px;
+        padding: 7px 52px;
+        font-family: pregular;
+        color:white;
+    }
+    /*BG*/
+    .bg-con-png-azul{
+        background: var(--primario) url("../img/home/BG.png") no-repeat center;
+        height:350px;
+    }
+    .bg-con-png-blanco{
+        background: white;
+        height: auto;
+       
+    }
+    /* FONT SIZES */
+    .letra-54px{
+        font-size:2.9375em;
+        font-family: pbold; 
+    }
+    .letra-26{
+        font-size:22px;
+        font-family: pbold;
+    }
 }

@@ -1,6 +1,6 @@
 <div class="taxmotor-padding" id="satisfaccion">
-    <h2 class="letra-40px gris-oscuro text-center py-md-5">Tu satisfacción garantizada</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-0 px-md-5">
+    <h2 class="letra-40px gris-oscuro text-center py-md-5 py-3 px-3 px-md-0">Tu satisfacción garantizada</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-0 px-md-5 pt-1 pt-md-0">
         <div class="col">
             <div class="card border-0 h-100 bg-primario">
                 <img src="img/home/icono_calculos.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
