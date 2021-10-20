@@ -2,7 +2,7 @@
     <div class="col-md-6">
         <img src="img/home/01_Home_FOTO-EXPERTO-2.jpg" alt="" title="" class="img-experto px-4 px-md-0">
     </div>
-    <div class="col-md-6 px-md-4 px-3">
+    <div class="col-md-6 px-md-3 px-3">
         <h3 class="letra-tus-impuestos secundario">
             Tenés un <br/>
             experto a mano.
@@ -11,6 +11,7 @@
             Seas un empleado, un profesional, un monotributista o una Pyme, sólo<br/>
             tenés que contestar unas preguntas sencillas y nosotros te vamos guiando<br/>
             paso a paso para que tengas todo al día, asesorado por nuestros expertos.
+            <br/>
             <b>Estamos para ayudarte.</b>
         </p>
         <a href="" alt="" title="" class="text-decoration-none">
