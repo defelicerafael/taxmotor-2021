@@ -2,7 +2,7 @@
     <div class="taxmotor-padding bg-light" id="footer">
         <div class="row g-0  py-md-4 py-3">
             <div class="col-md-3 col-12">
-                <img src="img/logo/taxmotor-240.png" alt="" class="padding-foto-footer img-fluid mx-auto d-block mx-md-0 py-4 py-md-0">   
+                <img src="<?php echo $link;?>img/logo/taxmotor-240.png" alt="" class="padding-foto-footer img-fluid mx-auto d-block mx-md-0 py-4 py-md-0">   
             </div>
             <div class="col-md-7 col-12 px-md-3 px-3">
                 <div class="row g-0">

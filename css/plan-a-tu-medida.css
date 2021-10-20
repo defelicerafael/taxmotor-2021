@@ -80,15 +80,7 @@ body,html{
 .taxmotor-padding{
     padding: 20px 70px;
 } 
-.padding-video{
-    padding: 0 13px;
-}
-.padding-planificacion{
-    padding-left:13px;
-}
-.padding-suplemento-taxmotor{
-    padding: 20px 12px;
-}
+
 .padding-footer{
     padding-left: 84px; 
 }
@@ -270,25 +262,6 @@ body,html{
 }
 #footer ul a{
     text-decoration: none;
-}
-/* PLAN A TU MEDIDA */
-.cards-alto{
-    height: 91px;
-}
-.check-position{
-    position: absolute;
-    top: -35%;
-    left: 40%;
-    z-index: 999;
-}
-.check{
-    background-color: var(--boton);
-    color:white;
-    border: 0;
-    font-family: pbold;
-}
-.check-off{
-    display: none;
 }
 @media (max-width: 767.98px) {
     /* CONTAINER */
