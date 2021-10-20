@@ -2,7 +2,7 @@
     <div class="col-md-6">
         <img src="img/home/01_Home_FOTO-EXPERTO-2.jpg" alt="" title="" class="img-experto px-4 px-md-0">
     </div>
-    <div class="col-md-6 px-md-5 px-3">
+    <div class="col-md-6 px-md-4 px-3">
         <h3 class="letra-tus-impuestos secundario">
             Tenés un <br/>
             experto a mano.
