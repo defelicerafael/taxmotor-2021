@@ -1,0 +1,276 @@
+
+* {
+    box-sizing: border-box;
+    margin:0; 
+    padding:0
+}
+/* COLORES */
+:root{
+    --primario: #f1f2f6;
+    --secundario: #3a73e2;
+    --boton: #61b8ff;
+    --oscuro: #1a1a1a;
+    --blanco: white;
+    --gris-oscuro : #2e2e30;
+}
+/* FUENTES */
+@font-face {
+    font-family: osbold;
+    src: url(font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: osregular;
+    src: url(font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: pbold;
+    src: url(font/Poppins-Bold.otf);
+}
+
+@font-face {
+    font-family: pmedium;
+    src: url(font/Poppins-Medium.otf);
+}
+@font-face {
+    font-family: pregular;
+    src: url(font/Poppins-Regular.otf);
+}
+.poppins-regular{
+    font-family: pregular;
+}
+.poppins-medium{
+    font-family: pmedium;
+}
+.poppins{
+    font-family: pbold;
+}
+.os-bold{
+    font-family: osbold; 
+}
+.os-regular{
+    font-family: osregular;
+}
+/* HTML*/
+html {
+  scroll-behavior: smooth;
+}
+body,html{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primario);
+    font-family: osregular;
+}
+/* HEADER */
+#topnav{
+    height:86px;
+}
+/* CONTENERDOR TAXMOTOR*/
+.container-taxmotor-nav{
+    max-width: 1366px;
+    width: 100%;
+}
+.container-taxmotor{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 500;
+    padding-bottom: 400px;
+   
+}
+.taxmotor-padding{
+    padding: 20px 70px;
+} 
+.padding-video{
+    padding: 0 13px;
+}
+.padding-planificacion{
+    padding-left:13px;
+}
+.padding-suplemento-taxmotor{
+    padding: 20px 12px;
+}
+.padding-footer{
+    padding-left: 84px; 
+}
+.padding-foto-footer{
+    padding-left: 12px; 
+}
+.padding-end{
+    padding-right: 67px; 
+}
+/* BG */
+.bg-primario{
+    background-color: var(--primario);
+}
+.bg-secundario{
+    background-color: var(--secundario);
+}
+.bg-gris-oscuro{
+    background-color: var(--gris-oscuro);
+}
+.bg-oscuro{
+    background-color: var(--oscuro);
+}
+.bg-blanco{
+    background-color: var(--blanco);
+}
+.bg-transparent{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.bg-boton{
+    background-color: var(--boton);
+}
+.bg-boton-gris{
+    background-color: var(--gris-oscuro);
+}
+.bg-con-png-azul{
+    background: var(--primario) url("../img/home/BG.png") no-repeat center;
+    height: 410px;
+}
+.bg-con-png-blanco{
+    background: var(--primario) url("../img/home/forma_blanca.png") no-repeat center;
+    height: 206px;
+}
+/* TEXT COLORS*/
+.primario{
+    color:var(--primario)
+}
+.secundario{
+    color: var(--secundario);
+}
+.menu-shadow{
+    box-shadow: 0 4px 10px -10px rgb(0 0 0 / 60%);
+}
+.gris-oscuro{
+    color: var(--gris-oscuro);
+}
+.text-shadow{
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+/* TEXT SIZES */
+.letra-grande{
+    font-size: 3.5625em;
+    font-family: pbold;
+}
+.letra-54px{
+    font-size: 3.375em;
+    font-family: pbold; 
+}
+.letra-probalo{
+    font-size: 3.1875em;
+    font-family: pbold;
+}
+.letra-tus-impuestos{
+    font-size:2.9375em;
+    font-family: pbold;
+}
+.letra-40px{
+    font-size:2.5em;
+    font-family: pbold;
+}
+.letra-36{
+    font-size:2.3em;
+    font-family: pbold;
+}
+.letra-presonas-pymes{
+    font-size:1.875em;
+    font-family: pbold;
+}
+.letra-26{
+    font-size:27.6px;
+    font-family: pbold;
+}
+.letra-24px{
+    font-size:  1.5em;
+    font-family: osregular;
+}
+/* HEADER */
+.img-logo{
+    width:100%;
+    height: auto;
+}
+
+/*BOTONES*/
+.btn-config{
+    border-radius: 9px;
+    padding: 3.2px 30px;
+    letter-spacing: 1px;
+    font-family: pregular;
+    color:white;
+}
+.btn-config-2{
+    font-size:1em;
+    border-radius: 9px;
+    padding: 7px 21px;
+    font-family: pregular;
+    color:white;
+}
+.btn-config-3{
+    border-radius: 9px;
+    padding: 7px 38px;
+    font-family: pregular;
+    color:white;
+}
+.btn-config-4{
+    border-radius: 9px;
+    padding: 7px 52px;
+    font-family: pregular;
+    color:white;
+}
+/* VIDEO */
+.video-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.responsive-iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* IMG CONTAINER */
+.p-relative{
+    position: relative;
+}
+.img-position-1{
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+.img-position-2{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+.img-experto{
+    height:100%;
+    width:auto;
+    margin-left:22%;
+}
+/* FOOTER */
+.footer-efect {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -9999;
+    background-color: #f1f2f6;
+}
+#footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#footer ul a{
+    text-decoration: none;
+}
+@media (max-width: 991.98px) {
+    
+    
+}

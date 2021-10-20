@@ -1,0 +1,34 @@
+<header></header>
+<md-content  layout-padding ng-init="ctrl.traerProtagonistas(ctrl.idArt)">
+    <md-subheader class="md-primary"> BLOG </md-subheader>
+    <form novalidate class="simple-form" ng-submit="ctrl.Edit({'titulo':ctrl.protagonistas[0].titulo,'subtitulo':ctrl.protagonistas[0].subtitulo,'date':ctrl.protagonistas[0].date,'orden':ctrl.protagonistas[0].orden,'mostrar':ctrl.protagonistas[0].mostrar,'texto':ctrl.protagonistas[0].texto},'protagonistas',ctrl.protagonistas[0].id)">
+        <md-input-container class="md-block">
+            <label style="color:black;">Título</label>
+            <input ng-model="ctrl.protagonistas[0].titulo" type="text">
+        </md-input-container>
+        
+        <md-input-container class="md-block">
+            <label style="color:black;">Subtitulo</label>
+            <input ng-model="ctrl.protagonistas[0].subtitulo" type="text">
+        </md-input-container>
+        <md-input-container>
+            <label>fecha</label>
+            <md-datepicker ng-model="ctrl.protagonistas[0].date" aria-label="Enter date"></md-datepicker>
+        </md-input-container>
+        <md-input-container class="md-block">
+            <label style="color:black;">orden</label>
+            <input ng-model="ctrl.protagonistas[0].orden" type="text">
+        </md-input-container>
+        <md-input-container class="md-block">Para dejar de mostrar poner: no</label>
+            <input ng-model="ctrl.protagonistas[0].mostrar" type="text">
+        </md-input-container>
+        <!--<text-angular ng-model="ctrl.blog[0].texto"></text-angular>-->
+        <md-input-container class="md-block">
+            <label>Texto</label>
+            <textarea ng-model="ctrl.protagonistas[0].texto" md-maxlength="3000" rows="5" md-select-on-focus></textarea>
+          </md-input-container>
+        <div layout="row" layout-align="end center">   
+            <md-button type="submit" class="md-raised md-primary">EDITAR</md-button>
+        </div>
+    </form>
+</md-content>    

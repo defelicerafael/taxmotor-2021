@@ -1,0 +1,61 @@
+
+<header></header>
+<md-content layout="column" layout-padding ng-init="ctrl.traerArticulos('no');ctrl.getCategorias();">
+    <section>
+            <md-select  placeholder="BUSCAR FOTOS POR CATEGORIAS" ng-model="ctrl.item.categoria" md-on-open="ctrl.traerCategorias('no')" style="min-width: 200px;">
+                <md-option ng-click="ctrl.guardarCategorias(cat.categoria)" ng-value="cat.categoria" ng-repeat="cat in ctrl.categorias">{{cat.categoria}}</md-option>
+            </md-select>
+            <md-tabs md-dynamic-height md-border-bottom >
+                <md-tab label="FOTOS" >
+                    <md-subheader class="md-primary"> CANTIDAD: {{ ctrl.articulosL }} </md-subheader>
+                    <md-list flex>    
+                        <md-list-item class="md-3-line" ng-repeat="datos in ctrl.articulos | filter : {categoria:ctrl.item.categoria} track by $index">
+                            <img ng-src="../{{datos.img_home}}" class="" alt="{{datos.nombre}}" style="width: 100px; height: auto; padding:8px;"/>
+                                <div class="md-list-item-text" layout="column">
+                                    <p> Orden: {{datos.orden}}</p>
+                                    <h4>Categoría: {{datos.categoria}}</h4>
+                                </div>
+                                <md-button class="md-icon-button" ng-href="#!/panel/fotos/id/{{datos.id}}" aria-label="foto">
+                                    <md-tooltip md-direction="top">Cambiar Foto</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/add_photo_alternate-black-24dp.svg"></md-icon>
+                                </md-button>
+                                <md-button class="md-icon-button" ng-href="#!/panel/editar/id/{{datos.id}}" aria-label="edit">
+                                    <md-tooltip md-direction="top">Editar Artículo</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/ic_edit_black_24px.svg"></md-icon>
+                                </md-button>
+                                <md-button class="md-icon-button" ng-click="ctrl.Delete(datos.id,'imagenes');" aria-label="delete" style="background-color:red">
+                                    <md-tooltip md-direction="top">Borrar Artículo</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/ic_delete_white_24px.svg"></md-icon>
+                                </md-button>
+                          <md-divider></md-divider>  
+                          </md-list-item>
+                    </md-list>
+                </md-tab>
+                
+                <md-tab label="NUEVA FOTO">
+                    <md-subheader class="md-primary"> INGRESE UNA FOTO </md-subheader>
+                    <form novalidate class="simple-form" ng-submit="ctrl.insert({'orden':ctrl.item.orden,'categoria':ctrl.item.categoria},'imagenes')">
+                        <md-input-container class="md-block">
+                            <label>Orden</label>
+                            <input required name="orden" ng-model="ctrl.item.orden" type='text'>
+                            <div ng-messages="projectForm.orden.$error">
+                              <div ng-message="required">Le solicito por favor el orden </div>
+                            </div>
+                        </md-input-container>
+                        
+                        <md-select placeholder="categorias" ng-model="ctrl.item.categoria" md-on-open="ctrl.traerCategorias('no')" style="min-width: 200px;">
+                            <md-option ng-value="cat.categoria" ng-repeat="cat in ctrl.categorias">{{cat.categoria}}</md-option>
+                        </md-select>
+                        
+                        <div layout="row" layout-align="end center">   
+                            <md-button type="submit" class="md-raised md-primary">INGRESAR</md-button>
+                        </div>
+                    </form>
+             </md-tab>
+         </md-tabs>  
+        
+        
+      
+     </section>  
+  </md-content>
+

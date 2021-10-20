@@ -1,0 +1,60 @@
+
+<header></header>
+<md-content layout="column" layout-padding ng-init="ctrl.traerCategorias('no');">
+    <section>
+        
+            <md-tabs md-dynamic-height md-border-bottom >
+                <md-tab label="CATEGORIAS" >
+                    <md-subheader class="md-primary"> CANTIDAD: {{ ctrl.categoriasL }} </md-subheader>
+                    <md-list flex >    
+                        <md-list-item class="md-2-line" ng-repeat="datos in ctrl.categorias track by $index">
+                                <div class="md-list-item-text" layout="column">
+                                    <p>{{datos.categoria}}</p>
+                                </div>
+                                
+                                <md-button class="md-icon-button" ng-href="#!/panel/categorias/editar/id/{{datos.id}}" aria-label="edit">
+                                    <md-tooltip md-direction="top">Editar</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/ic_edit_black_24px.svg"></md-icon>
+                                </md-button>
+                                <md-button class="md-icon-button" ng-click="ctrl.Delete(datos.id,'categorias');" aria-label="delete" style="background-color:red">
+                                    <md-tooltip md-direction="top">Borrar</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/ic_delete_white_24px.svg"></md-icon>
+                                </md-button>
+                          <md-divider></md-divider>  
+                          </md-list-item>
+                        
+                    </md-list>
+                </md-tab>
+                <md-tab label="NUEVA CATEGORÍA">
+                    <md-subheader class="md-primary"> INGRESE UN ART&Iacute;CULO </md-subheader>
+                    <form novalidate class="simple-form" ng-submit="ctrl.insert({'categoria':ctrl.item.categoria,'color':ctrl.item.color,'mostrar':ctrl.item.mostrar},'categorias')">
+                        <md-input-container class="md-block">
+                            <label>Categoría</label>
+                            <input required name="categoria" ng-model="ctrl.item.categoria" type='text'>
+                            <div ng-messages="projectForm.categoria.$error">
+                              <div ng-message="required">Le solicito por favor el nombre de la categoría</div>
+                            </div>
+                        </md-input-container>
+                        
+                        <md-select placeholder="color" ng-model="ctrl.item.color"  style="min-width: 200px;">
+                            <md-option value="byn">Blanco y Negro</md-option>
+                            <md-option value="color">Color</md-option>
+                        </md-select>
+                        
+                        <md-select placeholder="mostrar" ng-model="ctrl.item.mostrar"  style="min-width: 200px;">
+                            <md-option value="si">Si</md-option>
+                            <md-option value="no">No</md-option>
+                        </md-select>
+                        
+                        <div layout="row" layout-align="end center">   
+                            <md-button type="submit" class="md-raised md-primary">INGRESAR</md-button>
+                        </div>
+                    </form>
+             </md-tab>
+         </md-tabs>  
+        
+        
+      
+     </section>  
+  </md-content>
+

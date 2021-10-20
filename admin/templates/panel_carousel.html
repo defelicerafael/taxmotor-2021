@@ -1,0 +1,52 @@
+
+<header></header>
+<md-content layout="column" layout-padding ng-init="ctrl.traerCarousel('no');">
+    <section>
+            <md-tabs md-dynamic-height md-border-bottom >
+                <md-tab label="CAROUSEL">
+                    <md-subheader class="md-primary"> CANTIDAD: {{ ctrl.carouselL }} </md-subheader>
+                    <md-list flex>    
+                        <md-list-item class="md-3-line" ng-repeat="datos in ctrl.carousel track by $index">
+                            <img ng-src="../{{datos.img_home}}" class="" alt="{{datos.titulo}}" style="width: 100px; height: auto; padding:8px;"/>
+                                <div class="md-list-item-text" layout="column">
+                                    <p> {{datos.orden}}</p>
+                                </div>
+                                <md-button class="md-icon-button" ng-href="#!/panel/carousel/fotos/id/{{datos.id}}" aria-label="foto">
+                                    <md-tooltip md-direction="top">Cambiar Foto</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/add_photo_alternate-black-24dp.svg"></md-icon>
+                                </md-button>
+                                <md-button class="md-icon-button" ng-href="#!/panel/carousel/editar/id/{{datos.id}}" aria-label="edit">
+                                    <md-tooltip md-direction="top">Editar órden</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/ic_edit_black_24px.svg"></md-icon>
+                                </md-button>
+                                <md-button class="md-icon-button" ng-click="ctrl.Delete(datos.id,'carousel');" aria-label="delete" style="background-color:red">
+                                    <md-tooltip md-direction="top">Borrar</md-tooltip>
+                                    <md-icon md-svg-icon="img/icon/ic_delete_white_24px.svg"></md-icon>
+                                </md-button>
+                          <md-divider></md-divider>  
+                          </md-list-item>
+                    </md-list>
+                </md-tab>
+                <md-tab label="NUEVO FOTO">
+                    <md-subheader class="md-primary"> ESCRIBA UN ÓRDEN </md-subheader>
+                    <form novalidate class="simple-form" ng-submit="ctrl.insert({'orden':ctrl.item.orden,'mostrar':'si'},'carousel')">
+                        <md-input-container class="md-block">
+                            <label>órden</label>
+                            <input required name="categoria" ng-model="ctrl.item.orden" type='text'>
+                            <div ng-messages="projectForm.orden.$error">
+                              <div ng-message="required">Le solicito por favor un número</div>
+                            </div>
+                        </md-input-container>
+                        
+                        <div layout="row" layout-align="end center">   
+                            <md-button type="submit" class="md-raised md-primary">INGRESAR</md-button>
+                        </div>
+                    </form>
+             </md-tab>
+         </md-tabs>  
+        
+        
+      
+     </section>  
+  </md-content>
+

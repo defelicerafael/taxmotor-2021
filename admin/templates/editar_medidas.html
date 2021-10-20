@@ -1,0 +1,33 @@
+<header></header>
+<md-content  layout-padding ng-init="ctrl.traerCategorias(ctrl.idArt)">
+    <md-subheader class="md-primary"> CATEGORIAS </md-subheader>
+    <form novalidate class="simple-form" ng-submit="ctrl.Edit({'categoria':ctrl.categorias[0].categoria,'titulo':ctrl.categorias[0].titulo,'subtitulo':ctrl.categorias[0].subtitulo,'display':ctrl.categorias[0].display,'orden':ctrl.categorias[0].orden,'mostrar':ctrl.categorias[0].mostrar},'categorias',ctrl.categorias[0].id)">
+        <md-input-container class="md-block">
+            <label style="color:black;">Categoria</label>
+            <input ng-model="ctrl.categorias[0].categoria" type="text">
+        </md-input-container>
+        <md-input-container class="md-block">
+            <label style="color:black;">Título</label>
+            <input ng-model="ctrl.categorias[0].titulo" type="text">
+        </md-input-container>
+        <md-input-container class="md-block">
+            <label style="color:black;">Subtitulo</label>
+            <input ng-model="ctrl.categorias[0].subtitulo" type="text">
+        </md-input-container>
+        <md-input-container class="md-block">
+            <label style="color:black;">Display (Foto o Lista)</label>
+            <input ng-model="ctrl.categorias[0].display" type="text">
+        </md-input-container>
+        <md-input-container class="md-block">
+            <label style="color:black;">orden</label>
+            <input ng-model="ctrl.categorias[0].orden" type="text">
+        </md-input-container>
+        <md-input-container class="md-block">Para dejar de mostrar poner: no</label>
+            <input ng-model="ctrl.categorias[0].mostrar" type="text" maxlength="500">
+        </md-input-container>
+      
+        <div layout="row" layout-align="end center">   
+            <md-button type="submit" class="md-raised md-primary">EDITAR</md-button>
+        </div>
+    </form>
+</md-content>    
