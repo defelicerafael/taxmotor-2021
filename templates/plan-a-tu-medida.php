@@ -143,7 +143,7 @@
                 <button class="btn bg-boton text-white btn-config-3" id="volver">VOLVER</button>
             </div>
             <div class="col-3">
-                <button class="btn bg-boton text-white btn-config-3" id="verplan">VER MI PLAN</button>
+                <a href="../mi-plan" role="button" class="btn bg-boton text-white btn-config-3" id="verplan">VER MI PLAN</a>
             </div>
         </div>
         

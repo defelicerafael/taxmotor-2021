@@ -1,7 +1,4 @@
 // VARIABLES //
-
-localStorage.setItem("elecciones", "");
-
 var continuar = document.getElementById('continuar');
 var volver = document.getElementById('volver');
 var primera = document.getElementById('primera');
@@ -12,6 +9,18 @@ var cardPlan = document.getElementsByClassName('card-plan');
 var cuantosCards = cardPlan.length;
 
 var arrayElecciones = [];
+
+if(localStorage.getItem("elecciones")){
+    //alert("hay datos: "+localStorage.getItem("elecciones"));
+    var arrayL = localStorage.getItem("elecciones").split(",");
+    for(x in arrayL){
+        console.log(arrayL[x]);
+        cardPlan[arrayL[x]].classList.toggle("check");
+        checkImg[arrayL[x]].classList.toggle("check-off");
+    }
+}
+
+
 
 segunda.style.display = "none";
 
@@ -77,3 +86,6 @@ function pasardeescena(n){
     }
 }
 
+function goBack() {
+    window.history.back();
+  }

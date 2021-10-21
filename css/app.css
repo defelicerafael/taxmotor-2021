@@ -180,9 +180,31 @@ body,html{
     font-size:27.6px;
     font-family: pbold;
 }
+.letra-26-medium{
+    font-size:27.6px;
+    font-family: pmedium;
+}
 .letra-24px{
     font-size:  1.5em;
     font-family: osregular;
+}
+.letra-mi-plan{
+    font-size: 24px;
+    font-family: pmedium;
+}
+.letra-17{
+    font-size: 17px;
+    font-family: pmedium;
+}
+/* UL */
+.sin-bullets{
+    list-style-type: none;
+}
+.con-check{
+    list-style-image: url('../img/planes/tilde.png');
+}
+.con-check li{
+    padding-left:3px;
 }
 /* HEADER */
 .img-logo{
@@ -289,6 +311,12 @@ body,html{
 }
 .check-off{
     display: none;
+}
+.redondeado{
+    border-radius: 17px;
+}
+.arriba-5{
+    line-height: 32px;
 }
 @media (max-width: 767.98px) {
     /* CONTAINER */
