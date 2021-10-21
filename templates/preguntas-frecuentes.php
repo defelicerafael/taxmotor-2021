@@ -73,7 +73,7 @@ $comunes[] = array(
                 foreach($funciona as $c){
             ?>  
                 <div >
-                    <a class="btn bg-blanco text-start w-100 p-md-3 my-1 p-2 rounded border-3" data-bs-toggle="collapse" href="#collapseFunciona-<?php echo $ic;?>" role="button" aria-expanded="false" aria-controls="collapseFunciona-<?php echo $ic;?>" onclick="cambiarfecha(<?php echo $ic;?>)">
+                    <a class="btn bg-blanco text-start w-100 p-md-3 my-2 p-2 rounded border-3" data-bs-toggle="collapse" href="#collapseFunciona-<?php echo $ic;?>" role="button" aria-expanded="false" aria-controls="collapseFunciona-<?php echo $ic;?>" onclick="cambiarfecha(<?php echo $ic;?>)">
                         <?php echo $c[0];?>
                         <span class="float-end">
                             <img class="flecha" src="../img/preguntas-frecuentes/flecha-abajo.png" alt="" title="">
@@ -90,15 +90,15 @@ $comunes[] = array(
             ?>
         </div>
     </div> 
-    <div class="col-12 w-100 mt-md-5 mt-3">
-        <h4 class="secundario letra-24p mt-md-3 mt-1 p-2 p-md-0">Preguntas más comunes</h4>
+    <div class="col-12 w-100 mt-md-1 mt-3">
+        <h4 class="secundario letra-24p my-md-4 my-1 p-2 p-md-0">Preguntas más comunes</h4>
         <?php
             $ic=0;
             foreach($comunes as $c){
                 
         ?>  
             <div class="p-2 p-md-0">
-                <a class="btn bg-blanco text-start w-100 p-md-3 my-1 p-2 rounded border-3" data-bs-toggle="collapse" href="#collapse-<?php echo $ic;?>" role="button" aria-expanded="false" aria-controls="collapse-<?php echo $ic;?>" onclick="cambiarfecha(<?php echo $ic;?>)">
+                <a class="btn bg-blanco text-start w-100 p-md-3 my-2 p-2 rounded border-3" data-bs-toggle="collapse" href="#collapse-<?php echo $ic;?>" role="button" aria-expanded="false" aria-controls="collapse-<?php echo $ic;?>" onclick="cambiarfecha(<?php echo $ic;?>)">
                     <?php echo $c[0];?>
                     <span class="float-end">
                         <img class="flecha" src="../img/preguntas-frecuentes/flecha-abajo.png" alt="" title="">
