@@ -86,6 +86,3 @@ function pasardeescena(n){
     }
 }
 
-function goBack() {
-    window.history.back();
-  }

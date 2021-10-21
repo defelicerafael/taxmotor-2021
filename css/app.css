@@ -138,6 +138,9 @@ body,html{
 .secundario{
     color: var(--secundario);
 }
+.celeste{
+    color: var(--boton);
+}
 .menu-shadow{
     box-shadow: 0 4px 10px -10px rgb(0 0 0 / 60%);
 }
@@ -167,6 +170,10 @@ body,html{
 .letra-40px{
     font-size:2.5em;
     font-family: pbold;
+}
+.letra-40M{
+    font-size:2.5em;
+    font-family: pmedium;
 }
 .letra-36{
     font-size:2.3em;
@@ -205,6 +212,9 @@ body,html{
 }
 .con-check li{
     padding-left:3px;
+}
+.lista-con-espacio li{
+    margin-bottom: 15px;
 }
 /* HEADER */
 .img-logo{

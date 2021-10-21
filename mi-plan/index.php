@@ -34,7 +34,7 @@ include_once '../server/link.php';
         </div>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../js/plan.js"></script>
+        <script src="../js/app.js"></script>
 
     </body>
 </html>
