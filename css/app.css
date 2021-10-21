@@ -328,6 +328,9 @@ body,html{
 .arriba-5{
     line-height: 32px;
 }
+.w-75-plan{
+    width: 75%;
+}
 @media (max-width: 767.98px) {
     /* CONTAINER */
     .container-taxmotor{
@@ -415,5 +418,9 @@ body,html{
     .letra-26{
         font-size:22px;
         font-family: pbold;
+    }
+    /*PLAN */
+    .w-75-plan{
+        width: 95%;
     }
 }

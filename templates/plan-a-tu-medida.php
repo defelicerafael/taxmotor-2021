@@ -7,13 +7,13 @@
                 Contanos un poco de vos
             </span>
         </h3>
-        <p class="os-regular"> 
+        <p class="os-regular pb-md-2"> 
             <b>Seleccioná todas las opciones que describan tu situación</b>
         </p>
     </div>
     <!-- PRIMER ESCENA -->
     <div class="col-12" id="primera">
-        <div class="row row-cols-4 row-cols-md-4 g-5 poppins">
+        <div class="row row-cols-2 row-cols-md-4 g-5 poppins p-md-0 p-2">
             <div class="col align-self-center cards-alto p-relative">
                 <img src="../img/planes/check.png" class="check-position img-check check-off" alt="...">
                 <div class="card h-100 shadow  border-0 card-plan" onclick="seleccion(0);">
@@ -80,13 +80,13 @@
                 </div>
             </div>
         </div>
-        <div class="text-center my-md-5">
+        <div class="text-center my-md-5 my-4">
             <button class="btn bg-boton text-white btn-config-3" id="continuar">CONTINUAR</button>
         </div>
     </div>
     <!-- SEGUNDA ESCENA -->
     <div class="col-12" id="segunda">
-        <div class="row row-cols-3 row-cols-md-3 g-5 poppins" id="segunda">
+        <div class="row row-cols-2 row-cols-md-3 g-5 poppins p-md-0 p-2" id="segunda">
             <div class="col align-self-center cards-alto p-relative">
                 <img src="../img/planes/check.png" class="check-position img-check check-off" alt="...">
                 <div class="card h-100 shadow  border-0 card-plan" onclick="seleccion(8);">
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div class="row g-0 justify-content-center my-md-5 text-center">
+        <div class="row g-0 justify-content-center my-md-5 my-4 text-center">
             <div class="col-3">
                 <button class="btn bg-boton text-white btn-config-3" id="volver">VOLVER</button>
             </div>
