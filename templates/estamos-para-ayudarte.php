@@ -33,7 +33,7 @@ $iconos[] = array(
 
 
 <div class="row g-0 align-items-center justify-content-center taxmotor-padding-1" id="quienes-1">
-    <div class="col-md-6 px-md-3 px-5">
+    <div class="col-md-6-12 col px-md-3 px-5 mt-2 mt-md-0">
         <h3 class="letra-tus-impuestos gris-oscuro">
             Estamos para<br/>
             ayudarte
@@ -45,7 +45,7 @@ $iconos[] = array(
 
         </p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-12">
         <img src="../img/03_Estamos-para-ayudarte_Foto.jpg" alt="" title="" class="w-50 mx-auto d-block">
     </div>
 </div>
@@ -74,4 +74,4 @@ $iconos[] = array(
         ?>
         
     </div>     
-</div>    
+</div>   
