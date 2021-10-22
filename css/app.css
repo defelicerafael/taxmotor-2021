@@ -203,6 +203,10 @@ body,html{
     font-size: 24px;
     font-family: pmedium;
 }
+.letra-20{
+    font-size: 17px;
+    font-family: pbold;
+}
 .letra-17{
     font-size: 17px;
     font-family: pmedium;
@@ -421,6 +425,10 @@ body,html{
     }
     .letra-26{
         font-size:22px;
+        font-family: pbold;
+    }
+    .letra-20{
+        font-size: 1.3em;
         font-family: pbold;
     }
     /*PLAN */
