@@ -4,6 +4,6 @@ $link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ?
 if($link =='http://localhost'){
   $link .= "/taxmotor/";
 }else{
-  $link .= "";
+  $link .= "/";
 }
 ?>
