@@ -7,7 +7,7 @@ include_once '../server/link.php';
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>taxmotor - Quienes Somos.</title>
+        <title>taxmotor - Estamos para ayudarte.</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,12 +16,12 @@ include_once '../server/link.php';
         <link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../css/app.css">
         <!-- META DESCRIPTION -->
-        <meta name="description" content="taxmotor - Quienes Somos">
+        <meta name="description" content="taxmotor - Estamos para ayudarte">
         
         <meta property="og:url"           content="https://taxmotor.com.ar" />
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="taxmotor" />
-        <meta property="og:description"   content="Quienes Somos." />
+        <meta property="og:description"   content="Estamos para ayudarte." />
         <meta property="og:image"         content="https://taxmotor.com.ar/img/seo.jpg" />
     </head>
     <body>
