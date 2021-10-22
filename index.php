@@ -2,6 +2,7 @@
 ini_set('error_reporting', E_ALL);
 error_reporting(-1);
 header("Content-Type: text/html;charset=utf-8");
+include_once 'server/link.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -21,7 +22,7 @@ header("Content-Type: text/html;charset=utf-8");
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="taxmotor" />
         <meta property="og:description"   content="Tus impuestos, muy fácil." />
-        <meta property="og:image"         content="https://taxmotor.com.ar/img/seo.jpg" />
+        <meta property="og:image"         content="<?php echo $link;?>img/seo.jpg" />
     </head>
     <body>
         <div class="container-taxmotor">
@@ -44,30 +45,6 @@ header("Content-Type: text/html;charset=utf-8");
         </div>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-        
-        
-        <!--<script src="js/ads.js"></script>-->
-        <!--<script src="js/app.js"></script>
-        <script src="js/blog.js"></script
-        <script src="js/bio.js"></script>
-        <script src="js/media.js"></script>
-        <script src="js/archivos.js"></script>
-        <script src="js/protagonistas.js"></script>
-        <script src="js/contact.js"></script>
-        <script src="js/carousel.js"></script>
-        <script src="js/menu.js"></script>-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-          /*----- FUNCION PARA MOVER HASTA EL MENU --------------*/
-          $('body').on('click','a[href^="#"]',function(event){
-            event.preventDefault();
-            var target_offset = $(this.hash).offset() ? $(this.hash).offset().top : 0;
-            //change this number to create the additional off set        
-            var customoffset = 80;
-            $('html, body').animate({scrollTop:target_offset - customoffset}, 500);
-          });
-        </script>
-<style>
 
     </body>
 </html>
