@@ -28,7 +28,7 @@ include_once '../server/link.php';
         <div class="container-taxmotor">
           <div class="bg-primario">
             <?php include_once "../templates/top-nav-secciones.php";?>
-            <?php include_once "../templates/estamos-para-ayudarte.php";?>
+            <?php include_once "../templates/tu-seguridad.php";?>
           </div>
             <?php include_once "../templates/footer.php";?>    
         </div>

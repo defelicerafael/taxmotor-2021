@@ -1,33 +1,74 @@
 <?php
 $iconos[] = array(
-    "img"=>"../img/ayudarte/ICONO_WAHTSAPP.png",
-    "nombre"=>"Whatsapp",
-    "desc"=>"Conectáte con nuestros expertos directamente en tu celular, muy fácil y rápido."
+    "img"=>"../img/seguridad/ICONO_QUE_NECESITAMOS.png",
+    "nombre"=>"¿Qué información necesitamos? ",
+    "desc"=>'
+    <ul class="con-check">
+        <li>Información fiscal.</li>
+        <li>Información personal.</li>
+        <li>Datos de medios de pago.</li>
+    </ul>'
 );
 $iconos[] = array(
-    "img"=>"../img/ayudarte/ICONO_EMAIL.png",
-    "nombre"=>"E mail",
-    "desc"=>"Envíanos tus consultas por correo electrónico, lo responderemos en menos de XXX hs."
+    "img"=>"../img/seguridad/ICONO_PARA_QUE.png",
+    "nombre"=>"Para qué usamos tus datos ",
+    "desc"=>'
+    <ul class="con-check">
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+    </ul>'
 );
 $iconos[] = array(
-    "img"=>"../img/ayudarte/ICONO_VIDEOLLAMADA.png",
-    "nombre"=>"Videollamada",
-    "desc"=>"i es necesario, agendamos un videochat con alguno de nuestros expertos."
+    "img"=>"../img/seguridad/ICONO_COMO_RECOGEMOS.png",
+    "nombre"=>"Cómo recogemos tus datos",
+    "desc"=>'
+    <ul class="con-check">
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+    </ul>'
 );
 $iconos[] = array(
-    "img"=>"../img/ayudarte/ICONO_PREGUNTAS.png",
-    "nombre"=>"Preguntas frecuentes",
-    "desc"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id auctor libero."
+    "img"=>"../img/seguridad/ICONO_SEGURIDA.png",
+    "nombre"=>"Cómo protegemos tus datos y tus claves",
+    "desc"=>'
+    <ul class="con-check">
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+    </ul>'
 );
 $iconos[] = array(
-    "img"=>"../img/ayudarte/ICONO_ENGRANAJES.png",
-    "nombre"=>"Como funciona Taxmotor",
-    "desc"=>"Mirá qué fácil es llevar tus impuestos con nuestras herramientas exclusivas."
+    "img"=>"../img/seguridad/ICONO_COMO_PROCESAMOS.png",
+    "nombre"=>"Cómo procesamos tu informacion",
+    "desc"=>'
+    <ul class="con-check">
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+    </ul>'
 );
 $iconos[] = array(
-    "img"=>"../img/ayudarte/ICONO_SABE.png",
-    "nombre"=>"Sabe de impuestos",
-    "desc"=>"No necesitas saber de contabilidad para hacer tus impuestos. Encontra todo aquí."
+    "img"=>"../img/seguridad/ICONO_TUS_DERECHOS.png",
+    "nombre"=>"Tus derechos",
+    "desc"=>'
+    <ul class="con-check">
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+    </ul>'
+);
+$iconos[] = array(
+    "img"=>"../img/seguridad/ICONO_NUESTRAS_POLITICAS.png",
+    "nombre"=>"Nuestras Políticas",
+    "desc"=>'
+    <ul class="con-check">
+        <li>Privacidad.</li>
+        <li>Propiedad.</li>
+        <li>Protección.</li>
+        <li>Transparencia.</li>
+    </ul>'
 );
 ?>
 
@@ -45,26 +86,22 @@ $iconos[] = array(
         </p>
     </div>
     <div class="col-md-6 col-12">
-        <img src="../img/01_Home_FOTO-TABLET.jpg" alt="" title="" class="w-50 mx-auto d-block">
+        <img src="../img/home/01_Home_FOTO-TABLET.jpg" alt="" title="" class="w-75 mx-auto d-block">
     </div>
 </div>
 
 <div class="row g-0 taxmotor-padding" id="quienes-3">  
-    <div class="row row-cols-2 row-cols-md-3 g-0 mt-md-5 mt-4 poppins p-md-0 p-2">
+    <div class="row row-cols-2 row-cols-md-4 justify-content-center g-0 mt-md-5 mt-4 poppins p-md-0 p-2">
         <?php
             foreach($iconos as $k=>$v){
         ?>
-            <div class="col align-self-center mb-4 px-md-5 px-3 ">
-                <img src="<?php echo $v['img'];?>" class="mx-auto d-block" alt="...">
-                <div class="card-title text-center pt-3">
-                    <p>
-                        <a href="<?php echo $v['link'];?>" alt="" class="gris-oscuro" style="text-decoration:none"> 
-                            <?php echo $v['nombre'];?>
-                        </a>    
-                        <br/>
-                        <span class="secundario"><?php echo $v['puesto'];?></span>
+            <div class="col align-self-start mb-4 px-md-5 px-3 ">
+                <img src="<?php echo $v['img'];?>" class="mx-auto d-block h-100" alt="...">
+                <div class="pt-3">
+                    <p class="gris-oscuro text-center letra-17">
+                        <?php echo $v['nombre'];?>
                     </p>
-                    <p class="px-md-3 os-regular"><?php echo $v['desc'];?></p>
+                    <p class="os-regular text-start"><?php echo $v['desc'];?></p>
                 </div>
                
             </div>
