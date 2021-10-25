@@ -364,12 +364,12 @@ body,html{
         padding-right: 0px; 
     }
     .footer-efect {
-        width: 100%;
         position: sticky;
-        bottom: 0;
+        top: auto;
         left: 0;
-        z-index: 1;
-        background-color: #f1f2f6;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
     } 
     .padding-foto-footer{
         padding-left:0px; 
