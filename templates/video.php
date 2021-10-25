@@ -36,17 +36,5 @@
     </div>
   </div>
 </div>  
-<!-- ACA ESTA EL VIDEO -->
-<div class="modal fade" tabindex="-1" id="videoModal" aria-labelledby="videoModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header bg-primario">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body video-container">
-        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Nx3yDm4zg3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>    
+ 
   

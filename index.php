@@ -15,6 +15,8 @@ include_once 'server/link.php';
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/lite-yt-embed.css">
+
         <!-- META DESCRIPTION -->
         <meta name="description" content="taxmotor">
         
@@ -44,10 +46,24 @@ include_once 'server/link.php';
             <div class="footer-efect bg-primario">
               <?php include_once "templates/footer.php";?>    
             </div>
-          </div>   
+          </div>
+          <!-- ACA ESTA EL VIDEO -->
+          <div class="modal fade" tabindex="-1" id="videoModal" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-primario">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body video-container">
+                  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Nx3yDm4zg3c" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>      
           
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="js/lite-yt-embed.js"></script>
 
     </body>
 </html>
