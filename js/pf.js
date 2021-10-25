@@ -11,10 +11,10 @@ mostrarPreguntas.style.display="none";
 
 function cambiarfecha(i){
     console.log(flecha[i].src);
-    if(flecha[i].src==='http://localhost/taxmotor/img/preguntas-frecuentes/flecha-abajo.png'){
-        flecha[i].src = 'http://localhost/taxmotor/img/preguntas-frecuentes/flecha-arriba.png'
+    if(flecha[i].src==='http://c2410269.ferozo.com/img/preguntas-frecuentes/flecha-abajo.png'){
+        flecha[i].src = 'http://c2410269.ferozo.com//img/preguntas-frecuentes/flecha-arriba.png'
     }else{
-        flecha[i].src = 'http://localhost/taxmotor/img/preguntas-frecuentes/flecha-abajo.png';
+        flecha[i].src = 'http://c2410269.ferozo.com/img/preguntas-frecuentes/flecha-abajo.png';
     }
     
 }
