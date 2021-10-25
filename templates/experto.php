@@ -1,6 +1,6 @@
 <div class="row g-0 align-items-center taxmotor-padding" id="experto">
     <div class="col-md-6">
-        <img width="341" heigth="444" src="img/home/01_Home_FOTO-EXPERTO-2.jpg" alt="" title="" class="img-experto px-4 px-md-0">
+        <img width="341" height="444" src="img/home/01_Home_FOTO-EXPERTO-2.jpg" alt="" title="" class="img-experto px-4 px-md-0">
     </div>
     <div class="col-md-6 px-md-3 px-3">
         <h3 class="letra-tus-impuestos secundario">

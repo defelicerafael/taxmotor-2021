@@ -2,17 +2,17 @@
     <div class="taxmotor-padding bg-light" id="footer">
         <div class="row g-0  py-md-4 py-3">
             <div class="col-md-3 col-12 text-center text-md-start">
-                <img src="<?php echo $link;?>img/logo/taxmotor-240.png" alt="" class="padding-foto-footer img-fluid mx-auto d-block mx-md-0 py-4 py-md-0">   
+                <img width="240" height="32" src="<?php echo $link;?>img/logo/taxmotor-240.png" alt="" class="padding-foto-footer img-fluid mx-auto d-block mx-md-0 py-4 py-md-0">   
                 <h5 class="os-bold ps-md-3 margen-alto-seguinos py-md-0 pt-2">Seguinos:</h5>
                 <div class="row g-0 justify-content-center justify-content-md-start ps-md-3 pb-md-0 pb-4">
                     <div class="col-md-2 col-2">
-                        <img src="<?php echo $link;?>img/home/facebook.png" alt="" title="">
+                        <img width="33" height="34" src="<?php echo $link;?>img/home/facebook.png" alt="" title="">
                     </div>
                     <div class="col-md-2 col-1">
-                        <img src="<?php echo $link;?>img/home/instagram.png" alt="" title="">
+                        <img width="33" height="34"src="<?php echo $link;?>img/home/instagram.png" alt="" title="">
                     </div>
                     <div class="col-md-2 col-2">
-                        <img src="<?php echo $link;?>img/home/twitter.png" alt="" title="">
+                        <img width="33" height="34" src="<?php echo $link;?>img/home/twitter.png" alt="" title="">
                     </div>
                 </div>
             </div>

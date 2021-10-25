@@ -5,7 +5,7 @@
         </h2>
     </div>
     <div class="col-md-6 col-12 p-relative">
-        <img width="578" heigth="308" src="img/home/probando/personas.jpg" alt="" title="" class="w-100 px-md-2">
+        <img width="578" height="308" src="img/home/probando/personas.jpg" alt="" title="" class="w-100 px-md-2">
         <div class="img-position-1 text-center text-md-start">
             <h3 class="letra-presonas-pymes secundario">PERSONAS</h3>
             <p class="os-regular"> 
@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="col-md-6 col-12 p-relative">
-        <img width="578" heigth="308" src="img/home/probando/empresas.jpg" alt="" title="" class="w-100 px-md-2">
+        <img width="578" height="308" src="img/home/probando/empresas.jpg" alt="" title="" class="w-100 px-md-2">
         <div class="img-position-2 text-center text-md-start">
             <h3 class="letra-presonas-pymes secundario">PYMES</h3>
             <p class="os-regular"> 

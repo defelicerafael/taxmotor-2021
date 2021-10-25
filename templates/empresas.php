@@ -2,19 +2,19 @@
     <div class="row g-0 py-md-5 py-3">
         <div class="col-md-1"></div>
         <div class="col-md-2 col-6 pt-4 pt-md-0">
-            <img src="img/home/vectorial-4.png" alt="" title="">
+            <img height="53" width="89" src="img/home/vectorial-4.png" alt="" title="">
         </div>
         <div class="col-md-2 col-6 pt-4 pt-md-0">
-            <img src="img/home/vectorial-3.png" alt="" title="">
+            <img height="54" width="113" src="img/home/vectorial-3.png" alt="" title="">
         </div>
         <div class="col-md-2 pt-4 pt-md-0">
-            <img src="img/home/vectorial-2.png" alt="" title="">
+            <img height="24" width="195" src="img/home/vectorial-2.png" alt="" title="">
         </div>
         <div class="col-md-2 col-6 pt-4 pt-md-0 pb-2 pb-md-0">
-            <img src="img/home/vectorial-1.png" alt="" title="">
+            <img height="40" width="154" src="img/home/vectorial-1.png" alt="" title="">
         </div>
         <div class="col-md-2 col-6 pt-4 pt-md-0 pb-2 pb-md-0">
-            <img src="img/home/vectorial.png" alt="" title="">
+            <img height="31" width="110" src="img/home/vectorial.png" alt="" title="">
         </div>
         <div class="col-md-1"></div>
     </div>
