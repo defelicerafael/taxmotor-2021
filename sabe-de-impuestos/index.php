@@ -13,8 +13,8 @@ include_once '../server/link.php';
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="../css/app.css">
+        <link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css" media="all">
+        <link rel="stylesheet" type="text/css" href="../css/app.css" media="all">
         <!-- META DESCRIPTION -->
         <meta name="description" content="taxmotor - Estamos para ayudarte">
         
