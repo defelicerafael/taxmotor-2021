@@ -31,7 +31,7 @@
     </div>
     <div class="col-md-6 col-12 d-none d-sm-none d-md-block">
       <a role="button" data-bs-toggle="modal" data-bs-target="#videoModal">
-        <img src="img/home/01_Home_FOTO-NOTEBOOK.jpg" alt="taxmotor" title="taxmotor" class="w-100">
+        <img width="614" height="435" src="img/home/01_Home_FOTO-NOTEBOOK.jpg" alt="taxmotor" title="taxmotor" class="img-fluid">
       </a>
     </div>
   </div>

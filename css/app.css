@@ -65,6 +65,9 @@ body,html{
     background-color: var(--primario);
     font-family: osregular;
 }
+img {
+    aspect-ratio: attr(width) / attr(height);
+  }
 /* HEADER */
 #topnav{
     height:86px;

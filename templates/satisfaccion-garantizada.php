@@ -3,7 +3,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-0 px-md-5 pt-1 pt-md-0">
         <div class="col">
             <div class="card border-0 h-100 bg-primario">
-                <img src="img/home/icono_calculos.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
+                <img width="102" heigth="98" src="img/home/icono_calculos.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
                 <h5 class="card-title">Cálculos 100% precisos </h5>
                 <p class="card-text">Tus impuestos siempre
@@ -16,7 +16,7 @@
         </div>
         <div class="col">
             <div class="card border-0 h-100 bg-primario">
-                <img src="img/home/icono_doble_chequeo.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
+                <img width="102" heigth="98" src="img/home/icono_doble_chequeo.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
                 <h5 class="card-title">Doble chequeo</h5>
                 <p class="card-text">
@@ -30,7 +30,7 @@
         </div>
         <div class="col">
             <div class="card border-0 h-100 bg-primario">
-                <img src="img/home/icono_experto.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
+                <img width="102" heigth="98" src="img/home/icono_experto.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
                 <h5 class="card-title">Expertos a mano</h5>
                 <p class="card-text">
@@ -43,7 +43,7 @@
         </div>
         <div class="col">
             <div class="card border-0 h-100 bg-primario">
-                <img src="img/home/icono_precio.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
+                <img width="102" heigth="98" src="img/home/icono_precio.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
                 <h5 class="card-title">Precio transparente</h5>
                 <p class="card-text">
@@ -57,7 +57,7 @@
         </div>
         <div class="col">
             <div class="card border-0 h-100 bg-primario">
-                <img src="img/home/icono_sin_sorpresas.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
+                <img width="102" heigth="98" src="img/home/icono_sin_sorpresas.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
                 <h5 class="card-title">Sin Sorpresas</h5>
                 <p class="card-text">
@@ -71,7 +71,7 @@
         </div>
         <div class="col">
             <div class="card border-0 h-100 bg-primario">
-                <img src="img/home/icono_orientacion.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
+                <img width="102" heigth="98" src="img/home/icono_orientacion.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
                 <h5 class="card-title">Orientación ante inspecciones</h5>
                 <p class="card-text">

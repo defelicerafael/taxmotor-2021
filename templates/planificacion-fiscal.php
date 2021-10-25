@@ -21,6 +21,6 @@
         <button class="btn bg-boton text-white btn-config-3">EMPEZÁ AHORA</button>
     </div>
     <div class="col-md-5 d-none d-sm-none d-md-block text-center">
-        <img src="img/home/01_Home_FOTO-CELULAR-R.jpg" alt="" title="" class="w-75  mx-auto d-block">
+        <img width="348" heigth="460" src="img/home/01_Home_FOTO-CELULAR-R.jpg" alt="" title="" class="w-75  mx-auto d-block">
     </div>
 </div>   
