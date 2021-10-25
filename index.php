@@ -51,11 +51,12 @@ include_once 'server/link.php';
           <div class="modal fade" tabindex="-1" id="videoModal" aria-labelledby="videoModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
-                <div class="modal-header bg-primario">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header bg-negro border-0">
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body video-container">
-                  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Nx3yDm4zg3c" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
+                <lite-youtube class="responsive-iframe" videoid="Nx3yDm4zg3c"></lite-youtube>
+                  <!--<iframe class="responsive-iframe" src="https://www.youtube.com/embed/Nx3yDm4zg3c" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>-->
                 </div>
               </div>
             </div>

@@ -119,6 +119,9 @@ body,html{
 .bg-blanco{
     background-color: var(--blanco);
 }
+.bg-negro{
+    background-color: rgb(0, 0, 0);
+}
 .bg-transparent{
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -268,6 +271,7 @@ body,html{
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    background-color: rgb(0, 0, 0);
 }
 .responsive-iframe{
     position: absolute;
@@ -277,6 +281,8 @@ body,html{
     right: 0;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
 }
 
 /* IMG CONTAINER */
