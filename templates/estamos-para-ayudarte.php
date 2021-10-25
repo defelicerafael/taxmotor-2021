@@ -30,8 +30,6 @@ $iconos[] = array(
     "desc"=>"No necesitas saber de contabilidad para hacer tus impuestos. Encontra todo aquí."
 );
 ?>
-
-
 <div class="row g-0 align-items-center justify-content-center taxmotor-padding-1" id="quienes-1">
     <div class="col-md-6-12 col px-md-3 px-5 mt-2 mt-md-0">
         <h3 class="letra-tus-impuestos gris-oscuro">
@@ -46,7 +44,7 @@ $iconos[] = array(
         </p>
     </div>
     <div class="col-md-6 col-12">
-        <img src="../img/03_Estamos-para-ayudarte_Foto.jpg" alt="" title="" class="w-50 mx-auto d-block">
+        <img width="347" height="439" src="../img/03_Estamos-para-ayudarte_Foto.jpg" alt="" title="" class="w-50 mx-auto d-block">
     </div>
 </div>
 
@@ -56,7 +54,7 @@ $iconos[] = array(
             foreach($iconos as $k=>$v){
         ?>
             <div class="col align-self-center mb-4 px-md-5 px-3 ">
-                <img src="<?php echo $v['img'];?>" class="mx-auto d-block" alt="...">
+                <img width="" height="" src="<?php echo $v['img'];?>" class="mx-auto d-block" alt="...">
                 <div class="card-title text-center pt-3">
                     <p>
                         <a href="<?php echo $v['link'];?>" alt="" class="gris-oscuro" style="text-decoration:none"> 
