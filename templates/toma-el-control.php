@@ -9,7 +9,7 @@
             
         </div>
         <div class="col-md-5 col-12 pt-3 pt-md-0">
-            <div class="row g-0 justify-content-center px-md-5 text-center">
+            <div class="row g-0 px-md-5 text-center">
                 <div class="col ps-md-3 ps-md-0">
                     <button class="btn bg-secundario text-white btn-config-4">PERSONAS</button>
                 </div>
