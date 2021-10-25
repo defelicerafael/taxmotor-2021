@@ -9,7 +9,7 @@
                     <div class="col">
                         <ul>
                             <li><b>Servicios</b></li>
-                            <li><a href="#" title="" class="gris-oscuro">Nuestros planes.</a></li>
+                            <li><a href="https://google.com.ar" title="" class="gris-oscuro">Nuestros planes.</a></li>
                             <li><a href="#" title="" class="gris-oscuro">Cómo funciona.</a></li>
                             <li><a href="#" title="" class="gris-oscuro">Taxmotor.</a></li>
                             <li><a href="#" title="" class="gris-oscuro">Beneficios.</a></li>

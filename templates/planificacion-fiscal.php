@@ -1,6 +1,6 @@
 <div class="row g-0 align-items-center taxmotor-padding" id="planifica">
     <div class="col-md-7 padding-planificacion">
-        <h3 class="letra-tus-impuestos gris-oscuro">
+        <h3 class="letra-tus-impuestos gris-oscuro pe-1 pe-md-0">
             Armá tu planificación fiscal.
         </h3>
         <p class="os-regular"> 
@@ -20,7 +20,7 @@
         </a>
         <button class="btn bg-boton text-white btn-config-3">EMPEZÁ AHORA</button>
     </div>
-    <div class="col-md-5 d-none d-sm-none d-md-block">
-        <img src="img/home/01_Home_FOTO-CELULAR.jpg" alt="" title="" class="pe-md-5 w-100">
+    <div class="col-md-5 d-none d-sm-none d-md-block text-center">
+        <img src="img/home/01_Home_FOTO-CELULAR-R.jpg" alt="" title="" class="w-75  mx-auto d-block">
     </div>
 </div>   

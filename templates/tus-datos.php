@@ -1,5 +1,5 @@
-<div class="row g-0 align-items-center taxmotor-padding py-4 py-md-0" id="planifica">
-    <div class="col-md-6 padding-planificacion">
+<div class="row g-0 align-items-center taxmotor-padding py-4 py-md-0" id="">
+    <div class="col-md-6 ps-3 ps-md-5">
         <h3 class="letra-tus-impuestos gris-oscuro">
         Tus datos son<br/>
         de tu propiedad.
@@ -23,6 +23,6 @@
         <button class="btn bg-boton text-white btn-config-3">EMPEZÁ AHORA</button>
     </div>
     <div class="col-md-6 d-none d-sm-none d-md-block">
-        <img src="img/home/01_Home_FOTO-TABLET.jpg" alt="" title="" class="pe-5 w-100">
+        <img src="img/home/01_Home_FOTO-TABLET-R.jpg" alt="" title="" class="w-75 mx-auto d-block">
     </div>
 </div>   

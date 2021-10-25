@@ -2,7 +2,7 @@
     <div class="col-md-6 pe-md-3">
         <img src="img/home/01_Home_FOTO-NOTEBOOK-TUS-IMPUESTOS.jpg" alt="" title="" class="w-100">
     </div>
-    <div class="col-md-6 ps-md-4 pt-md-5 px-3 py-3">
+    <div class="col-md-6 ps-md-5 pt-md-5 px-3 py-3">
         <h3 class="letra-tus-impuestos secundario">
             Tus impuestos<br/>
             sin dolores de cabeza. 
