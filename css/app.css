@@ -17,23 +17,28 @@
 @font-face {
     font-family: osbold;
     src: url(font/OpenSans-Bold.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: osregular;
     src: url(font/OpenSans-Regular.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: pbold;
     src: url(font/Poppins-Bold.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: pmedium;
     src: url(font/Poppins-Medium.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: pregular;
     src: url(font/Poppins-Regular.otf);
+    font-display: swap;
 }
 .poppins-regular{
     font-family: pregular;
