@@ -316,6 +316,9 @@ body,html{
 #footer ul a{
     text-decoration: none;
 }
+.margen-alto-seguinos{
+    margin-top: 29%;
+}
 /* PLAN A TU MEDIDA */
 .cards-alto{
     height: 91px;
@@ -363,6 +366,7 @@ body,html{
     .padding-end{
         padding-right: 0px; 
     }
+    /* FOOTER */
     .footer-efect {
         position: sticky;
         top: auto;
@@ -377,6 +381,11 @@ body,html{
     .padding-footer{
         padding-left: 15px; 
     }
+    .margen-alto-seguinos{
+        margin-top: 0;
+    }
+
+
     /* IMG */
     .img-experto{
         height:100%;
