@@ -44,7 +44,7 @@ $iconos[] = array(
         </p>
     </div>
     <div class="col-md-6 col-12">
-        <img width="347" height="439" src="../img/03_Estamos-para-ayudarte_Foto.jpg" alt="" title="" class="w-50 mx-auto d-block">
+        <img width="347" height="439" src="../img/03_Estamos-para-ayudarte_Foto.jpg" alt="" title="" class="img-fluid mx-auto d-block">
     </div>
 </div>
 
