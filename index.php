@@ -32,7 +32,6 @@ include_once 'server/link.php';
             <div class="main bg-primario">  
               <?php include_once "templates/video.php";?>
               <?php include_once "templates/probalo.php";?>
-              <?php include_once "templates/top-nav-comun.php";?>    
               <?php include_once "templates/sin-dolor-de-cabeza.php";?>
               <?php include_once "templates/planificacion-fiscal.php";?>
               <?php include_once "templates/experto.php";?>
