@@ -1,6 +1,6 @@
 <div class="row g-0" id="sindolor">
     <div class="col-md-6 pe-md-3">
-        <img width="658" height="412" src="img/home/01_Home_FOTO-NOTEBOOK-TUS-IMPUESTOS.jpg" alt="" title="" class="w-100">
+        <img width="658" height="412" src="img/home/01_Home_FOTO-NOTEBOOK-TUS-IMPUESTOS.jpg" alt="" title="" class="img-fluid">
     </div>
     <div class="col-md-6 ps-md-5 pt-md-5 px-3 py-3">
         <h3 class="letra-tus-impuestos secundario">
