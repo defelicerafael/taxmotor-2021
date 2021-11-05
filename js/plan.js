@@ -65,7 +65,7 @@ function seleccion(n){
         //console.log(arrayElecciones);
         var texto = arrayElecciones.toString();
         localStorage.setItem("elecciones",texto)
-        console.log(localStorage.getItem("elecciones"));
+        //console.log(localStorage.getItem("elecciones"));
     }else{
         var index = arrayElecciones.indexOf(n);
         if (index > -1) {
@@ -73,7 +73,7 @@ function seleccion(n){
          }
         var textotb = arrayElecciones.toString();
         localStorage.setItem("elecciones",textotb)
-        console.log(localStorage.getItem("elecciones"));
+        //console.log(localStorage.getItem("elecciones"));
     }
 }
 

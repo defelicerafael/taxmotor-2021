@@ -44,12 +44,12 @@ $quienes[] = array(
 ?>
 
 
-<div class="row g-0 align-items-center taxmotor-padding" id="quienes-1">
-    <div class="col-md-6 px-md-3 px-3">
+<div class="row g-0 align-items-center taxmotor-padding pt-md-5" id="quienes-1">
+    <div class="col-md-6 px-md-3 px-3 pt-md-3">
         <h3 class="letra-tus-impuestos gris-oscuro">
             Acerca de nosotros
         </h3>
-        <p class="letra-20"> 
+        <p class="letra-21"> 
             Queremos hacerte la vida más fácil con tus impuestos 
         </p>
         <p class="os-regular">
@@ -69,7 +69,7 @@ $quienes[] = array(
         <h3 class="letra-tus-impuestos secundario text-center">
             Los Valores de Taxmotor
         </h3>
-        <p class="letra-20 text-center"> 
+        <p class="letra-20px-osregular text-center"> 
             Creemos mucho en los valores. Nos ayudan a funcionar, a tomar 
             <br class="d-none d-sm-none d-md-block"/>
             decisiones en el día a día. Trabajamos para hacerlos carne en nuestro equipo
@@ -84,7 +84,7 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario">Clientes contentos</span>
+            <span class="pbold secundario"><b>Clientes contentos</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
                 Todo lo que hacemos es para que nuestros clientes puedan administrar y planificar sus impuestos de forma fácil, segura y al menor costo. Queremos clientes que estén tranquilos, que se queden con nosotros por años, y que nos recomienden. Estamos siempre escuchándolos.
@@ -96,10 +96,10 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario">Innovación</span>
+            <span class="pbold secundario"><b>Innovación</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
-                Asumimos el compromiso de innovar a través de la tecnología para brindarle a nuestros clientes la mejor experiencia. Estamos siempre pensando en cómo automatizar y digitalizar todos los procesos.
+                Asumimos el compromiso de innovar a través de la tecnología para brindarles a nuestros clientes la mejor experiencia. Estamos siempre pensando en cómo automatizar y digitalizar todos los procesos.
             </span>
         </p>
     </div>
@@ -110,10 +110,10 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario">Libertad y responsabilidad</span>
+            <span class="pbold secundario"><b>Libertad y responsabilidad</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
-                Asumimos el compromiso de innovar a través de la tecnología para brindarle a nuestros clientes la mejor experiencia. Estamos siempre pensando en cómo automatizar y digitalizar todos los procesos.
+                Somos personas con motor propio, criterio para organizarnos y manejar los tiempos. Los límites sólo nos los ponemos nosotros.
             </span>
         </p>
         <p>
@@ -122,10 +122,10 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario">Resultados</span>
+            <span class="pbold secundario"><b>Resultados</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
-                Estamos 100% orientados a resultados. Medimos, analizamos y accionamos para alcanz ar nuestros objetivos.
+                Estamos 100% orientados a resultados. Medimos, analizamos y accionamos para alcanzar nuestros objetivos.
             </span>
         </p>
         <p>
@@ -134,7 +134,7 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario">Pasarla bien</span>
+            <span class="pbold secundario"><b>Pasarla bien</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
             Trabajamos duro, en equipo, en un ambiente de respeto, apoyo, compromiso, comunicación, ganas de aprender y enseñar, ganas de hacer y de crecer, con motivación y buena onda.
@@ -144,13 +144,13 @@ $quienes[] = array(
 </div> 
 <div class="row g-0 taxmotor-padding" id="quienes-3">  
     <div class="col-md-12 px-md-5 px-5 text-center">
-        <h3 class="letra-tus-impuestos gris-oscuro">
+        <h3 class="letra-tus-impuestos gris-oscuro pb-md-2">
             Somos personas
         </h3>
-        <p class="letra-20"> 
+        <p class="letra-20-regular"> 
             Vivimos en un mundo cada vez más digital, donde se accede a la información en solo click. Todo se hacemos
             <br class="d-none d-sm-none d-md-block"/>
-            más fácil y a menor costo. Somos una empresa de tecnología, pero queremos que siempre te sientas 
+            más fácil y a menor costo. Somos una empresa de tecnología, pero queremos que siempre te sientas acompañado.
         </p>
     </div>
     <div class="row row-cols-2 row-cols-md-3 g-0 mt-md-5 mt-4 poppins p-md-0 p-2">

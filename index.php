@@ -27,23 +27,25 @@ include_once 'server/link.php';
         <meta property="og:image"         content="<?php echo $link;?>img/seo.jpg" />
     </head>
     <body>
-          <div class="container-taxmotor">  
-            <?php include_once "templates/top-nav-comun.php";?>
-            <div class="main bg-primario">  
-              <?php include_once "templates/video.php";?>
-              <?php include_once "templates/probalo.php";?>
-              <?php include_once "templates/sin-dolor-de-cabeza.php";?>
-              <?php include_once "templates/planificacion-fiscal.php";?>
-              <?php include_once "templates/experto.php";?>
-              <?php include_once "templates/tus-datos.php";?>
-              <?php include_once "templates/empeza-a-gestionar.php";?>
-              <?php include_once "templates/satisfaccion-garantizada.php";?>
-              <?php include_once "templates/empresas.php";?>
-              <?php include_once "templates/toma-el-control.php";?>
-            </div>
-            <div class="footer-efect bg-primario">
-              <?php include_once "templates/footer.php";?>    
-            </div>
+          <div class="container-taxmotor">
+              <header>  
+                <?php include_once "templates/top-nav-comun.php";?>
+              </header>
+              <section class="main bg-primario">
+                <?php include_once "templates/video.php";?>
+                <?php include_once "templates/probalo.php";?>
+                <?php include_once "templates/sin-dolor-de-cabeza.php";?>
+                <?php include_once "templates/planificacion-fiscal.php";?>
+                <?php include_once "templates/experto.php";?>
+                <?php include_once "templates/tus-datos.php";?>
+                <?php include_once "templates/empeza-a-gestionar.php";?>
+                <?php include_once "templates/satisfaccion-garantizada.php";?>
+              </section>
+              <footer class="footer-efect bg-primario">
+                <?php include_once "templates/empresas.php";?>
+                <?php include_once "templates/toma-el-control.php";?>
+                <?php include_once "templates/footer.php";?>    
+              </footer>
           </div>
           <!-- ACA ESTA EL VIDEO -->
           <div class="modal fade" tabindex="-1" id="videoModal" aria-labelledby="videoModalLabel" aria-hidden="true">

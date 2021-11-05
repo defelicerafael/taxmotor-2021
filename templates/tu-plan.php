@@ -1,6 +1,7 @@
 
-<div class="row g-0 bg-blanco w-75-plan mx-auto p-md-4 redondeado p-2" id="tuplan">
-    <div class="col-12 pb-md-3 pb-3 pt-3 pt-md-0">
+<div class="py-4">
+<div class="row g-0 bg-blanco w-75-plan mx-auto pt-md-5 px-md-2 pb-md-4 redondeado" id="tuplan">
+    <div class="col-12 pb-md-3 pb-3 pt-5 pt-md-0">
         <h2 class="letra-tus-impuestos text-center gris-oscuro">
             Monotributo Base
             <br/>
@@ -10,7 +11,7 @@
         </h2>
     </div>
     <div class="col-md-6 col-12 text-center mt-3 mt-md-0">
-        <h2 class="letra-probalo secundario arriba-5">$999<br/>
+        <h2 class="letra-grande secundario arriba-5 pt-md-3">$999<br/>
             <span class="letra-mi-plan gris-oscuro ">por mes</span>
         </h2>
         <h4 class="letra-26 py-md-3">Probá 30 días gratis</h4>
@@ -22,7 +23,7 @@
         
     </div>
     <div class="col-md-6 col-12">
-        <ul class="con-check letra-17 ms-md-0 ms-3 mt-2 mt-md-0">
+        <ul class="con-check lista-con-espacio-mi-plan letra-check ms-md-0 ms-3 mt-2 mt-md-0">
             <li>Obtención de CUIT.</li>
             <li>Declaración del Domicilio Fiscal.</li>
             <li>Selección de actividad fiscal.</li>
@@ -79,11 +80,12 @@
         </div>
     </div>
     <div class="col-6 text-center mb-3 mb-md-0">
-        <button class="btn bg-boton text-white btn-config-3" onclick="goBack();">VOLVER</button>
+        <button class="btn bg-azul-no-secundario text-white btn-config-6 w-80-mi-plan" onclick="goBack();">VOLVER</button>
     </div>    
     <div class="col-6 text-center mb-3 mb-md-0">
-        <button class="btn bg-boton text-white btn-config-3">¡QUIERO EMPEZAR AHORA!</button>
+        <button class="btn bg-boton-verde text-white btn-config-3 letra-mi-plan w-80-mi-plan"><b>¡QUIERO EMPEZAR AHORA!</b></button>
     </div>
+</div>
 </div>
 
        

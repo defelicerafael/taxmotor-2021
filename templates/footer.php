@@ -1,4 +1,4 @@
-<div class="">    
+
     <div class="taxmotor-padding bg-light" id="footer">
         <div class="row g-0  py-md-4 py-3">
             <div class="col-md-3 col-12 text-center text-md-start">
@@ -59,4 +59,4 @@
             <p class="text-white pt-md-3 pt-3">Copyright 2021. Todos los derechos reservados.</p>
         </div> 
     </div>
-</div>    
+  

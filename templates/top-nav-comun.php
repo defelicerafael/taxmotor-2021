@@ -51,8 +51,19 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-body" href="#">Herramientas</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-body" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Herramientas
+                            <svg style="margin-top:-7px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="11" viewBox="0 0 15 11">
+                                <image id="Capa_1" data-name="Capa 1" x="3" y="3" width="10" height="6" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAMAAADNLv/0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAWlBMVEXx8fbx8vbw8fbt7/bs7vbn6vXq7Pbp7PV4lOtvjerT2/PU3PRvjut4leuSqe5UdudegOjI0vLI0/JTduaRqO2Iou1Ud+dXeue3xfFXeeZ5lexwjupxj+sAAAAFb0BzAAAACHRSTlMAAAAAAAAAALfnUqEAAAABYktHRB3rA3GRAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSCzkAOCzFfwAAAEFJREFUCNcNy8kBgCAMBMANijcIBFY8+q/T/OYzWNYNArcfAfFMGa4krZDGq/ebTYAhkNRnNIp/qZ+HCTLVONv8AVu+AqfActw4AAAAAElFTkSuQmCC"/>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -61,4 +72,5 @@
             </div>
         </div>
     </nav>
+    
    

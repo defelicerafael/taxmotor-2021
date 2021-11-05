@@ -46,7 +46,7 @@ $articulos[] = array(
         <h3 class="letra-tus-impuestos secundario">
             Sabé de impuestos
         </h3>
-        <p class="letra-mi-plan"> 
+        <p class="letra-mi-plan-regular"> 
             Con las herramientas de taxmotor cualquier persona o pyme puede administrar <br class="d-none d-sm-none d-md-block"/>
             sus impuestos sin necesidad de conocimientos de contabilidad. <br class="d-none d-sm-none d-md-block"/>
             Encontra todo lo necesario aquí.

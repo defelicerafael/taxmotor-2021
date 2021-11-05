@@ -8,10 +8,13 @@
 :root{
     --primario: #f1f2f6;
     --secundario: #3a73e2;
+    --azul: #3d76ed;
     --boton: #61b8ff;
     --oscuro: #1a1a1a;
     --blanco: white;
     --gris-oscuro : #2e2e30;
+    --verde : #00b050;
+    --celeste-claro: #d5e5fe;
 }
 /* FUENTES */
 @font-face {
@@ -40,6 +43,12 @@
     src: url(font/Poppins-Regular.otf);
     font-display: swap;
 }
+@font-face {
+    font-family: plight;
+    src: url(font/Poppins-Light.otf);
+    font-display: swap;
+}
+
 .poppins-regular{
     font-family: pregular;
 }
@@ -87,11 +96,15 @@ img {
     width: 100%;
     margin: 0 auto;
 }
+.taxmotor-padding-solo-ancho{
+    padding-left: 90px;
+    padding-right: 90px;
+} 
 .taxmotor-padding{
     padding: 20px 70px;
 } 
 .taxmotor-padding-1{
-    padding: 20px 150px;
+    padding: 35px 150px 1px;
 } 
 .padding-video{
     padding: 0 13px;
@@ -103,6 +116,8 @@ img {
     padding: 20px 12px;
 }
 .padding-footer{
+    padding-top: 14px;
+    padding-bottom: 14px;
     padding-left: 84px; 
 }
 .padding-foto-footer{
@@ -110,6 +125,10 @@ img {
 }
 .padding-end{
     padding-right: 67px; 
+}
+.p-btn-mi-plan{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 /* BG */
 .bg-primario{
@@ -136,8 +155,21 @@ img {
 .bg-boton{
     background-color: var(--boton);
 }
+.bg-boton:hover{
+    background-color: var(--secundario);
+}
+.bg-boton-azul{
+    background-color: var(--secundario);
+}
+.bg-boton-azul:hover{
+    background-color: var(--boton);
+}
+
 .bg-boton-gris{
     background-color: var(--gris-oscuro);
+}
+.bg-boton-verde{
+    background-color: var(--verde);
 }
 .bg-con-png-azul{
     background: var(--primario) url("../img/home/BG.png") no-repeat center;
@@ -145,7 +177,13 @@ img {
 }
 .bg-con-png-blanco{
     background: var(--primario) url("../img/home/forma_blanca.png") no-repeat center;
-    height: 206px;
+    height: 150px;
+}
+.bg-azul-no-secundario{
+    background-color: var(--azul);
+}
+.bg-celeste-claro{
+    background-color: var(--celeste-claro);
 }
 /* TEXT COLORS*/
 .primario{
@@ -165,6 +203,9 @@ img {
 }
 .text-shadow{
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.nuevo-azul{
+    color:var(--azul);
 }
 /* TEXT SIZES */
 .letra-grande{
@@ -207,6 +248,10 @@ img {
     font-size:27.6px;
     font-family: pmedium;
 }
+.letra-25-medium{
+    font-size:25.6px;
+    font-family: pmedium;
+}
 .letra-24px{
     font-size:  1.5em;
     font-family: osregular;
@@ -219,14 +264,53 @@ img {
     font-size: 24px;
     font-family: pmedium;
 }
+.letra-mi-plan-regular{
+    font-size: 24px;
+    font-family: plight;
+}
+.letra-seguridad-regular{
+    font-size: 18px;
+    font-family: plight;
+}
+.letra-check{
+    font-size: 19px;
+    font-family: pmedium;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.letra-20px-osregular{
+    font-size: 19px;
+    font-family: osregular;
+}
+.letra-21{
+    font-size: 18px;
+    font-family: pbold;
+}
 .letra-20{
     font-size: 17px;
     font-family: pbold;
+}
+.letra-20-regular{
+    font-size: 17px;
+    font-family: osregular;
+}
+.letra-20-iconos{
+    font-size: 18px;
+    font-family: osbold;
 }
 .letra-17{
     font-size: 17px;
     font-family: pmedium;
 }
+.letra-16-iconos{
+    font-size: 15px;
+    font-family: osregular;
+}
+.letter-spacing-1px{
+    letter-spacing: 0.5px;
+}
+
 /* UL */
 .sin-bullets{
     list-style-type: none;
@@ -239,6 +323,9 @@ img {
 }
 .lista-con-espacio li{
     margin-bottom: 15px;
+}
+.lista-con-espacio-mi-plan li{
+    margin-bottom: 8px;
 }
 /* HEADER */
 .img-logo{
@@ -253,7 +340,9 @@ img {
     letter-spacing: 1px;
     font-family: pregular;
     color:white;
+    background-color: var(--boton);
 }
+
 .btn-config-2{
     font-size:1em;
     border-radius: 9px;
@@ -271,6 +360,18 @@ img {
     border-radius: 9px;
     padding: 7px 52px;
     font-family: pregular;
+    color:white;
+}
+.btn-config-5{
+    border-radius: 9px;
+    padding: 7px 38px;
+    font-family: pbold;
+    color:white;
+}
+.btn-config-6{
+    border-radius: 9px;
+    padding: 13px 38px;
+    font-family:pregular;
     color:white;
 }
 /* VIDEO */
@@ -336,10 +437,22 @@ img {
 /* PLAN A TU MEDIDA */
 .cards-alto{
     height: 91px;
+    border-radius: 25px;
+}
+.cards-alto-pf{
+    height: 120px;
+    border-radius: 30px;
+    
 }
 .check-position{
     position: absolute;
     top: -35%;
+    left: 40%;
+    z-index: 999;
+}
+.check-position-pf{
+    position: absolute;
+    top: -28%;
     left: 40%;
     z-index: 999;
 }
@@ -360,6 +473,14 @@ img {
 }
 .w-75-plan{
     width: 75%;
+}
+.w-80-mi-plan{
+    width: 77%;
+}
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (max-width: 767.98px) {
     /* CONTAINER */

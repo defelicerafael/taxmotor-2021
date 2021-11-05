@@ -1,5 +1,5 @@
 
-<div id="video" class="py-md-5 py-md-3 py-2 taxmotor-padding">
+<div id="video" class="py-md-5 py-2 taxmotor-padding">
   <div class="row g-0 align-items-start padding-video">
     <div class="col-md-6 col-12">
       <h1 class="letra-grande">

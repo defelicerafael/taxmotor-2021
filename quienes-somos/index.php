@@ -26,11 +26,17 @@ include_once '../server/link.php';
     </head>
     <body>
         <div class="container-taxmotor">
-          <div class="bg-primario">
+          <header>
             <?php include_once "../templates/top-nav-secciones.php";?>
+          </header>
+          <section class="main bg-primario">
             <?php include_once "../templates/quienes-somos.php";?>
-          </div>
-            <?php include_once "../templates/footer.php";?>    
+          </section>
+          <footer class="footer-efect bg-primario">
+                <?php include_once "../templates/empresas.php";?>
+                <?php include_once "../templates/toma-el-control.php";?>
+                <?php include_once "../templates/footer.php";?>    
+          </footer>  
         </div>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>

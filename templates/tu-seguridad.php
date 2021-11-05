@@ -3,7 +3,7 @@ $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_QUE_NECESITAMOS.png",
     "nombre"=>"¿Qué información necesitamos? ",
     "desc"=>'
-    <ul class="con-check">
+    <ul class="con-check lh-lg">
         <li>Información fiscal.</li>
         <li>Información personal.</li>
         <li>Datos de medios de pago.</li>
@@ -11,9 +11,9 @@ $iconos[] = array(
 );
 $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_PARA_QUE.png",
-    "nombre"=>"Para qué usamos tus datos ",
+    "nombre"=>"Para qué usamos<br/>tus datos ",
     "desc"=>'
-    <ul class="con-check">
+    <ul class="con-check lh-lg">
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
@@ -21,9 +21,9 @@ $iconos[] = array(
 );
 $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_COMO_RECOGEMOS.png",
-    "nombre"=>"Cómo recogemos tus datos",
+    "nombre"=>"Cómo recogemos<br/>tus datos",
     "desc"=>'
-    <ul class="con-check">
+    <ul class="con-check lh-lg">
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
@@ -33,7 +33,7 @@ $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_SEGURIDA.png",
     "nombre"=>"Cómo protegemos tus datos y tus claves",
     "desc"=>'
-    <ul class="con-check">
+    <ul class="con-check lh-lg">
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
@@ -43,7 +43,7 @@ $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_COMO_PROCESAMOS.png",
     "nombre"=>"Cómo procesamos tu informacion",
     "desc"=>'
-    <ul class="con-check">
+    <ul class="con-check lh-lg">
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
@@ -53,7 +53,7 @@ $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_TUS_DERECHOS.png",
     "nombre"=>"Tus derechos",
     "desc"=>'
-    <ul class="con-check">
+    <ul class="con-check lh-lg">
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
         <li>Lorem ipsum.</li>
@@ -63,7 +63,7 @@ $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_NUESTRAS_POLITICAS.png",
     "nombre"=>"Nuestras Políticas",
     "desc"=>'
-    <ul class="con-check">
+    <ul class="con-check lh-lg">
         <li>Privacidad.</li>
         <li>Propiedad.</li>
         <li>Protección.</li>
@@ -79,8 +79,8 @@ $iconos[] = array(
             Tu seguridad<br/>
             <span class="secundario">Nuestra Prioridad</span>
         </h3>
-        <p class="letra-20"> 
-        Tus datos, tu información son de tu propiedad.<br/>
+        <p class="letra-seguridad-regular"> 
+        Tus datos, tu información <b>son de tu propiedad.</b><br/>
         Cumplimos con las certificaciones más exigentes de seguridad de datos y de transacciones. Sólo vos decidís quién puede ver tu información, cuando y cómo. 
 
         </p>
@@ -91,17 +91,17 @@ $iconos[] = array(
 </div>
 
 <div class="row g-0 taxmotor-padding" id="quienes-3">  
-    <div class="row row-cols-2 row-cols-md-4 justify-content-center g-0 mt-md-5 mt-4 poppins p-md-0 p-2">
+    <div class="row row-cols-2 row-cols-md-4 justify-content-center g-0 mt-md-5 mt-4 p-md-0 p-2">
         <?php
             foreach($iconos as $k=>$v){
         ?>
             <div class="col align-self-start mb-4 px-md-5 px-3 ">
                 <img src="<?php echo $v['img'];?>" class="mx-auto d-block h-100" alt="...">
                 <div class="pt-3">
-                    <p class="gris-oscuro text-center letra-17">
-                        <?php echo $v['nombre'];?>
+                    <p class="gris-oscuro text-center letra-20-iconos">
+                        <b><?php echo $v['nombre'];?></b>
                     </p>
-                    <p class="os-regular text-start"><?php echo $v['desc'];?></p>
+                    <p class="text-start"><?php echo $v['desc'];?></p>
                 </div>
                
             </div>

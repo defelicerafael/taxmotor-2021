@@ -5,7 +5,7 @@
             <div class="card border-0 h-100 bg-primario">
                 <img width="102" height="98" src="img/home/icono_calculos.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
-                <h5 class="card-title">Cálculos 100% precisos </h5>
+                <h5 class="card-title os-bold">Cálculos 100% precisos</h5>
                 <p class="card-text">Tus impuestos siempre
                     <br/>bien hechos, gracias a la
                     <br/>tecnología y el conocimiento
@@ -18,7 +18,7 @@
             <div class="card border-0 h-100 bg-primario">
                 <img width="102" height="98" src="img/home/icono_doble_chequeo.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
-                <h5 class="card-title">Doble chequeo</h5>
+                <h5 class="card-title os-bold">Doble chequeo</h5>
                 <p class="card-text">
                     Verificamos con vos tus
                     <br/>presentaciones antes de
@@ -32,7 +32,7 @@
             <div class="card border-0 h-100 bg-primario">
                 <img width="102" height="98" src="img/home/icono_experto.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
-                <h5 class="card-title">Expertos a mano</h5>
+                <h5 class="card-title os-bold">Expertos a mano</h5>
                 <p class="card-text">
                     Nuestro equipo de expertos
                     <br/>esta disponible
@@ -45,12 +45,13 @@
             <div class="card border-0 h-100 bg-primario">
                 <img width="102" height="98" src="img/home/icono_precio.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
-                <h5 class="card-title">Precio transparente</h5>
+                <h5 class="card-title os-bold">Precio transparente</h5>
                 <p class="card-text">
                     Te detallamos
                     <br/>claramente los servicios
                     <br/>que incluye tu
-                    <br/>suscripción. Sin cargos.
+                    <br/>suscripción sin cargos
+                    <br/>imprevistos.
                 </p>
             </div>
             </div>
@@ -59,7 +60,7 @@
             <div class="card border-0 h-100 bg-primario">
                 <img width="102" height="98" src="img/home/icono_sin_sorpresas.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
-                <h5 class="card-title">Sin Sorpresas</h5>
+                <h5 class="card-title os-bold">Sin Sorpresas</h5>
                 <p class="card-text">
                     Usando nuestra agenda
                     <br/>te aseguras que no se te
@@ -73,7 +74,7 @@
             <div class="card border-0 h-100 bg-primario">
                 <img width="102" height="98" src="img/home/icono_orientacion.png" class="mx-auto" alt="taxmotor - tu satisfacción garantizada">
             <div class="card-body text-center">
-                <h5 class="card-title">Orientación ante inspecciones</h5>
+                <h5 class="card-title os-bold">Orientación ante inspecciones</h5>
                 <p class="card-text">
                     Si recibís avisos de inspección,
                     <br/>nuestros expertos estan para
