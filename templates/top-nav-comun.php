@@ -17,8 +17,8 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Personas</a></li>
-                            <li><a class="dropdown-item" href="#">Pymes</a></li>
+                            <li><a class="dropdown-item" href="plan-a-tu-medida">Personas</a></li>
+                            <li><a class="dropdown-item" href="plan-a-tu-medida">Pymes</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -29,10 +29,10 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Cómo funciona Taxmotor</a></li>
-                            <li><a class="dropdown-item" href="#">Beneficios</a></li>
-                            <li><a class="dropdown-item" href="#">Atención personalizada</a></li>
-                            <li><a class="dropdown-item" href="#">Garantías</a></li>
+                            <li><a class="dropdown-item" href="preguntas-frecuentes#como-funciona">Cómo funciona Taxmotor</a></li>
+                            <li><a class="dropdown-item" href="quienes-somos">Quienes somos</a></li>
+                            <li><a class="dropdown-item" href="estamos-para-ayudarte">Atención personalizada</a></li>
+                            <li><a class="dropdown-item" href="preguntas-frecuentes#garantia">Garantías</a></li>
                             <li><a class="dropdown-item" href="tu-seguridad">Seguridad</a></li>
                         </ul>
                     </li>
