@@ -83,7 +83,7 @@
         <button class="btn bg-azul-no-secundario text-white btn-config-6 w-80-mi-plan" onclick="goBack();">VOLVER</button>
     </div>    
     <div class="col-6 text-center mb-3 mb-md-0">
-        <button class="btn bg-boton-verde text-white btn-config-3 letra-mi-plan w-80-mi-plan"><b>¡QUIERO EMPEZAR AHORA!</b></button>
+        <button class="btn bg-boton-verde text-white btn-config-3 letra-mi-plan w-80-mi-plan"><b>QUIERO EMPEZAR AHORA</b></button>
     </div>
 </div>
 </div>

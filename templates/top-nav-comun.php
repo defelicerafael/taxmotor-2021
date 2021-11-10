@@ -17,10 +17,8 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Personas</a></li>
+                            <li><a class="dropdown-item" href="#">Pymes</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -31,10 +29,11 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Cómo funciona Taxmotor</a></li>
+                            <li><a class="dropdown-item" href="#">Beneficios</a></li>
+                            <li><a class="dropdown-item" href="#">Atención personalizada</a></li>
+                            <li><a class="dropdown-item" href="#">Garantías</a></li>
+                            <li><a class="dropdown-item" href="#">Seguridad</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -45,10 +44,8 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Sabé de impuestos</a></li>
+                            <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -61,8 +58,6 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                 </ul>

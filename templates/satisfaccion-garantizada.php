@@ -23,7 +23,7 @@
                     Verificamos con vos tus
                     <br/>presentaciones antes de
                     <br/>enviarlas para que
-                    <br/>asegurarnos que tengan cero.
+                    <br/>asegurarnos que tengan cero errores.
                 </p>
             </div>
             </div>

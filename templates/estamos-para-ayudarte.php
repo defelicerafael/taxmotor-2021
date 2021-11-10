@@ -26,8 +26,8 @@ $iconos[] = array(
 );
 $iconos[] = array(
     "img"=>"../img/03_Estamos-para-ayudarte_ICONO-SABE-2.jpg",
-    "nombre"=>"Sabe de impuestos",
-    "desc"=>"No necesitas saber de contabilidad para hacer tus impuestos. Encontrá todo aquí."
+    "nombre"=>"Sabé de impuestos",
+    "desc"=>"No necesitás saber de contabilidad para hacer tus impuestos. Encontrá todo aquí."
 );
 ?>
 <div class="row g-0 align-items-center justify-content-center taxmotor-padding-1" id="quienes-1">

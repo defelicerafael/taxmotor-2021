@@ -59,7 +59,7 @@ $quienes[] = array(
         <br/><br/>
         Seas un empleado, monotributista, un profesional o un emprendedor, estamos para ayudarte a administrar y liquidar tus impuestos vos mismo, bien hechos. Y sin pagar de más.
         <br/><br/>
-        Con la tecnología de taxmotor tomás el control de tus impuestos, sin necesidad de ser contador. Podés armar tu planificación fiscal, con nuestras herramientas exclusivas. Tenés tu agenda personal y notificaciones para que estés informado y no se te pase nada. Guardás toda tu documentación, segura y ordenada en un solo lugar, al que solo 
+        Con la tecnología de taxmotor tomás el control de tus impuestos, sin necesidad de ser contador. Podés armar tu planificación fiscal, con nuestras herramientas exclusivas. Tenés tu agenda personal y notificaciones para que estés informado y no se te pase nada. Guardás toda tu documentación, segura y ordenada en un solo lugar, al que sólo accedés vos. Generás tus pagos desde la página y mucho más. Todo muy fácil. 
         </p>
     </div>
     <div class="col-md-6">

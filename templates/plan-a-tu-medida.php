@@ -68,7 +68,7 @@
                     <img src="../img/planes/check.png" class="check-position img-check check-off" alt="...">
                     <div class="card h-100 shadow border-0 card-plan nuevo-azul" onclick="seleccion(6);">
                         <div class="card-body">
-                            <div class="card-title text-center p-1">Quiero inscribir mi actividad</div>
+                            <div class="card-title text-center p-1">Quiero inscribir mi actividad actual</div>
                         </div>
                     </div>
                 </div>

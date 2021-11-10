@@ -9,10 +9,10 @@
                         <img width="33" height="34" src="<?php echo $link;?>img/home/facebook.png" alt="" title="">
                     </div>
                     <div class="col-md-2 col-1">
-                        <img width="33" height="34"src="<?php echo $link;?>img/home/instagram.png" alt="" title="">
+                        <img width="33" height="34"src="<?php echo $link;?>img/home/icons/instagram-5.svg" alt="" title="">
                     </div>
                     <div class="col-md-2 col-2">
-                        <img width="33" height="34" src="<?php echo $link;?>img/home/twitter.png" alt="" title="">
+                        <img width="33" height="34" src="<?php echo $link;?>img/home/icons/twitter-icon.svg" alt="" title="">
                     </div>
                 </div>
             </div>
