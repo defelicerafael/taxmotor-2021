@@ -44,8 +44,8 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Sabé de impuestos</a></li>
-                            <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
+                            <li><a class="dropdown-item" href="../sabe-de-impuestos">Sabé de impuestos</a></li>
+                            <li><a class="dropdown-item" href="../preguntas-frecuentes">Preguntas frecuentes</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">

@@ -33,7 +33,7 @@
                             <li><a class="dropdown-item" href="#">Beneficios</a></li>
                             <li><a class="dropdown-item" href="#">Atención personalizada</a></li>
                             <li><a class="dropdown-item" href="#">Garantías</a></li>
-                            <li><a class="dropdown-item" href="#">Seguridad</a></li>
+                            <li><a class="dropdown-item" href="tu-seguridad">Seguridad</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -44,8 +44,8 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Sabé de impuestos</a></li>
-                            <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
+                            <li><a class="dropdown-item" href="sabe-de-impuestos">Sabé de impuestos</a></li>
+                            <li><a class="dropdown-item" href="preguntas-frecuentes">Preguntas frecuentes</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
