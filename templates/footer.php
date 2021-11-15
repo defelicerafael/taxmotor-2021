@@ -6,13 +6,19 @@
                 <h5 class="os-bold ps-md-3 margen-alto-seguinos py-md-0 pt-2">Seguinos:</h5>
                 <div class="row g-0 justify-content-center justify-content-md-start ps-md-3 pb-md-0 pb-4">
                     <div class="col-md-2 col-2">
-                        <img width="33" height="34" src="<?php echo $link;?>img/home/facebook.png" alt="" title="">
+                        <a href="#" alt="" title="">
+                            <img width="33" height="34" src="<?php echo $link;?>img/home/facebook.png" alt="" title="">
+                        </a>
                     </div>
                     <div class="col-md-2 col-1">
-                        <img width="33" height="34"src="<?php echo $link;?>img/home/icons/instagram-5.svg" alt="" title="">
+                        <a href="#" alt="" title="">
+                            <img width="33" height="34"src="<?php echo $link;?>img/home/icons/instagram-5.svg" alt="" title="">
+                        </a>
                     </div>
                     <div class="col-md-2 col-2">
-                        <img width="33" height="34" src="<?php echo $link;?>img/home/icons/twitter-icon.svg" alt="" title="">
+                        <a href="#" alt="" title="">
+                            <img width="33" height="34" src="<?php echo $link;?>img/home/icons/twitter-icon.svg" alt="" title="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -22,12 +28,12 @@
                         <ul>
                             <li><b>Servicios</b></li>
                             <li><a href="https://google.com.ar" title="" class="gris-oscuro">Nuestros planes.</a></li>
-                            <li><a href="#" title="" class="gris-oscuro">Cómo funciona.</a></li>
-                            <li><a href="#" title="" class="gris-oscuro">Taxmotor.</a></li>
-                            <li><a href="#" title="" class="gris-oscuro">Beneficios.</a></li>
-                            <li><a href="#" title="" class="gris-oscuro">Garantías.</a></li>
-                            <li><a href="#" title="" class="gris-oscuro">Seguridad.</a></li>
-                            <li><a href="#" title="" class="gris-oscuro">Herramientas.</a></li>  
+                            <li><a href="#" title="Cómo funciona" class="gris-oscuro">Cómo funciona.</a></li>
+                            <li><a href="#" title="Taxmotor" class="gris-oscuro">Taxmotor.</a></li>
+                            <li><a href="#" title="Beneficios" class="gris-oscuro">Beneficios.</a></li>
+                            <li><a href="#" title="Garantías" class="gris-oscuro">Garantías.</a></li>
+                            <li><a href="#" title="Seguridad" class="gris-oscuro">Seguridad.</a></li>
+                            <li><a href="#" title="Herramientas" class="gris-oscuro">Herramientas.</a></li>  
                         </ul>
                     </div>
                     <div class="col">

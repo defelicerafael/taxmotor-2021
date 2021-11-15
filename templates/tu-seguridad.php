@@ -1,4 +1,5 @@
 <?php
+// DE ESTE ARRAY TOMA LOS DATOS ICONOS PARA OPTIMIZAR EL CÓDIGO.
 $iconos[] = array(
     "img"=>"../img/seguridad/ICONO_QUE_NECESITAMOS.png",
     "nombre"=>"¿Qué información necesitamos? ",
