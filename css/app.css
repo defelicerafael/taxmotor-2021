@@ -50,6 +50,8 @@
     font-display: swap;
 }
 
+/* FONT FAMILYS*/
+
 .poppins-regular{
     font-family: pregular;
 }
@@ -65,7 +67,7 @@
 .os-regular{
     font-family: osregular;
 }
-/* HTML*/
+/* HTML y GENERALES */
 html {
   scroll-behavior: smooth;
 }
@@ -87,7 +89,7 @@ img {
     position: relative;
     height: auto;
 }
-/* CONTENERDOR TAXMOTOR*/
+/* CONTENEDOR TAXMOTOR y PADDINGS*/
 .container-taxmotor-nav{
     max-width: 1366px;
     width: 100%;
@@ -204,18 +206,20 @@ img {
 .celeste{
     color: var(--boton);
 }
-.menu-shadow{
-    box-shadow: 0 4px 10px -10px rgb(0 0 0 / 60%);
+.nuevo-azul{
+    color:var(--azul);
 }
 .gris-oscuro{
     color: var(--gris-oscuro);
 }
+/* SOMBRAS */
+.menu-shadow{
+    box-shadow: 0 4px 10px -10px rgb(0 0 0 / 60%);
+}
 .text-shadow{
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
-.nuevo-azul{
-    color:var(--azul);
-}
+
 /* TEXT SIZES */
 .letra-grande{
     font-size: 3.5625em;
@@ -491,6 +495,7 @@ img {
     justify-content: center;
     align-items: center;
 }
+/* MEDIA QUERY */
 @media (max-width: 767.98px) {
     /* CONTAINER */
     .container-taxmotor{
