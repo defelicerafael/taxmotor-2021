@@ -84,7 +84,7 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario"><b>Clientes contentos</b></span>
+            <span class="pbold secundario letra-21"><b>Clientes contentos</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
                 Todo lo que hacemos es para que nuestros clientes puedan administrar y planificar sus impuestos de forma fácil, segura y al menor costo. Queremos clientes que estén tranquilos, que se queden con nosotros por años, y que nos recomienden. Estamos siempre escuchándolos.
@@ -96,7 +96,7 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario"><b>Innovación</b></span>
+            <span class="pbold secundario letra-21"><b>Innovación</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
                 Asumimos el compromiso de innovar a través de la tecnología para brindarles a nuestros clientes la mejor experiencia. Estamos siempre pensando en cómo automatizar y digitalizar todos los procesos.
@@ -110,7 +110,7 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario"><b>Libertad y responsabilidad</b></span>
+            <span class="pbold secundario letra-21"><b>Libertad y responsabilidad</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
                 Somos personas con motor propio, criterio para organizarnos y manejar los tiempos. Los límites sólo nos los ponemos nosotros.
@@ -122,7 +122,7 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario"><b>Resultados</b></span>
+            <span class="pbold secundario letra-21"><b>Resultados</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
                 Estamos 100% orientados a resultados. Medimos, analizamos y accionamos para alcanzar nuestros objetivos.
@@ -134,7 +134,7 @@ $quienes[] = array(
                     <image id="FLECHA" width="6" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKBAMAAABlIDIAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEVAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeNAeeMAAAAr8WgyAAAADnRSTlMAwJbPpQYt7Q8/+cwMWqwkcYMAAAABYktHRA8YugDZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QoSEhwQ3p+dAwAAACVJREFUCNdjEGJgYLBzZWBIf9jAwLluDwPDvUdgDGKDxEByQDUA2+wLIR2xaqcAAAAASUVORK5CYII="/>
                 </svg>
             </span>
-            <span class="pbold secundario"><b>Pasarla bien</b></span>
+            <span class="pbold secundario letra-21"><b>Pasarla bien</b></span>
             <br/>
             <span class="gris-oscuro os-regular">
             Trabajamos duro, en equipo, en un ambiente de respeto, apoyo, compromiso, comunicación, ganas de aprender y enseñar, ganas de hacer y de crecer, con motivación y buena onda.
