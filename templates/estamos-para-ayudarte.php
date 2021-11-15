@@ -1,4 +1,5 @@
 <?php
+// ARRAY PARA REDUCIR CÓDIGO ICONOS.
 $iconos[] = array(
     "img"=>"../img/03_Estamos-para-ayudarte_ICONO-WAHTSAPP.jpg",
     "nombre"=>"Whatsapp",

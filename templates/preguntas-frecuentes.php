@@ -1,4 +1,5 @@
 <?php
+// ARRAY PARA REDUCIR CÓDIGO
 $botones = array(
     "¿Cómo funciona?",
     "Herramientas",

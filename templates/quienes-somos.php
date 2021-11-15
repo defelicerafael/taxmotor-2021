@@ -1,4 +1,5 @@
 <?php
+// ARRAY PARA REDUCIR CÓDIGO
 $quienes[] = array(
     "img"=>"../img/quienes-somos/Javier_de_la_Vega.png",
     "nombre"=>"Javier de la Vega",

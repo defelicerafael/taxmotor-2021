@@ -1,4 +1,5 @@
 <?php
+// ARRAY PARA REDUCIR CODIGO
 $iconos[] = array(
     "img"=>"../img/sabe-de-impuestos/ICONO_PREGUNTAS.png",
     "nombre"=>"Preguntas frecuentes",
