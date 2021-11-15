@@ -81,7 +81,7 @@ $iconos[] = array(
         </h3>
         <p class="letra-seguridad-regular"> 
         Tus datos, tu información <b>son de tu propiedad.</b><br/>
-        Cumplimos con las certificaciones más exigentes de seguridad de datos y de transacciones. Sólo vos decidís quién puede ver tu información, cuando y cómo. 
+        Cumplimos con las certificaciones más exigentes de seguridad de datos y transacciones. Sólo vos decidís quién puede ver tu información, cuando y cómo. 
 
         </p>
     </div>
